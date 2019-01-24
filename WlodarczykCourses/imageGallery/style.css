@@ -1,0 +1,31 @@
+.thumbnail
+{
+    width: 80px;
+}
+.thumbnail:hover
+{
+    border-bottom: 2px solid red;
+    margin-bottom: -2px;
+}
+#mainImage
+{
+    width: 350px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.current
+{
+    border-bottom: 2px solid red;
+    margin-bottom: -2px;    
+}
+#tooltipContainer
+{
+    border-bottom: 3px solid #eee;
+    background-color:#f7f5d0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 10px;
+    padding: 5px;
+    display: none; 
+}

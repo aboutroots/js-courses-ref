@@ -1,0 +1,17 @@
+#slideShow
+{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+#slideShow img
+{
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+#slideShow .current
+{
+    opacity: 1;
+    transition: 2s;
+}

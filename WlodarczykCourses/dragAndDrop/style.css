@@ -1,0 +1,73 @@
+header
+{
+    margin: 5px 20px;
+}
+#products
+{
+    list-style: none;
+    width: 60%;
+    float: left;
+}
+#products li
+{
+    float: left;
+    margin: 10px;
+    width: 360px;
+    height: 270px;
+}
+.object
+{
+    position: relative;
+    cursor: move;
+}
+.object .description
+{
+    position: absolute;
+    background-color: rgba(0,0,0, 0.5);
+    bottom: 10px;
+    color: #ffffff;
+    width: 360px;
+    text-align: center;
+    padding: 5px 0;
+    display: none;
+}
+#basket_header
+{
+    text-align: center;
+    font-size: 25px;
+}
+#basket_container
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    float: right;
+    background-color: silver;
+    width: 25%;
+    padding: 10px 5%;
+}
+#price
+{
+    text-align: right;
+    margin: 10px 0;
+}
+#info
+{
+    display: none;
+    font-size: 20px;
+    text-align: center;
+}
+#basket
+{
+    list-style: none;
+}
+.products_in_basket
+{
+    border-bottom: 1px dotted teal;
+    padding: 10px 4px;
+}
+.price_in_basket
+{
+    position: absolute;
+    right: 20px;
+}

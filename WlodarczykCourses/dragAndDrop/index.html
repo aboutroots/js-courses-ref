@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>drag and drop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="js/jquery.js" defer></script>
+        <script src='js/moj-skrypt.js' defer></script>
+        <script src='js/jquery.ndd.js' defer></script>
+    </head>
+    <body>
+        <header><h1>Wczasy 2018</h1></header>
+        <ul id="products">
+            <li>
+                <section class="object" id="holidays_afa" draggable="true">
+                    <img src="images/afa.jpeg" width="360" height="270" alt="wczasy w afa">
+                    <div class="description">
+                    <h2 class="name">wczasy w Afa</h2>
+                    <b>Cena:</b> <span class="price">2000</span> zł
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section class="object" id="holidays_gdansk" draggable="true">
+                    <img src="images/gdansk.jpeg" width="360" height="270" alt="wczasy w gdansku">
+                    <div class="description">
+                    <h2 class="name">wczasy w Gdańsku</h2>
+                    <b>Cena:</b> <span class="price">3000</span> zł
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section class="object" id="holidays_krakow" draggable="true">
+                    <img src="images/krakow.jpeg" width="360" height="270" alt="wczasy w afa">
+                    <div class="description">
+                    <h2 class="name">wczasy w Krakowie</h2>
+                    <b>Cena:</b> <span class="price">1700</span> zł
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section class="object" id="holidays_tatry" draggable="true">
+                    <img src="images/tatry.jpeg" width="360" height="270" alt="wczasy w afa">
+                    <div class="description">
+                    <h2 class="name">wczasy w Tatrach</h2>
+                    <b>Cena:</b> <span class="price">3500</span> zł
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section class="object" id="holidays_zakopane" draggable="true">
+                    <img src="images/zakopane.jpeg" width="360" height="270" alt="wczasy w afa">
+                    <div class="description">
+                    <h2 class="name">wczasy w Zakopanem</h2>
+                    <b>Cena:</b> <span class="price">4000</span> zł
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section class="object" id="holidays_zatokaSagone" draggable="true">
+                    <img src="images/zatokaSagone.jpeg" width="360" height="270" alt="wczasy w afa">
+                    <div class="description">
+                    <h2 class="name">wczasy w zatoce Sagone</h2>
+                    <b>Cena:</b> <span class="price">5000</span> zł
+                    </div>
+                </section>
+            </li>
+        </ul>    
+        <aside id="basket_container">
+            <h2 id="basket_header">Koszyk</h2>
+            <ul id="basket">
+                
+            </ul>
+            <div id="info">Przenieś przedmiot tutaj.</div>
+            <div id="price"><b>Razem: </b><span>0.00</span> zł</div>
+        </aside>     
+    </body>
+</html>
+

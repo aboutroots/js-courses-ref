@@ -1,0 +1,359 @@
+	*
+	{
+		padding:0;
+		margin:0;
+	}
+	#kontener
+	{
+		margin:0 auto;
+		width:1004px;
+	}
+	body
+	{
+		background-image:url('images/tlo.jpg');
+		background-attachment:fixed;
+		background-repeat:repeat-x;
+		background-color:#8AE88A;
+	}
+	
+	/*GORNA CZESC KONTENERA */
+	
+	#gorna_czesc_kontenera
+	{
+		position:relative;
+		background-image:url('images/765x241.jpg');
+		width:765px;
+		height:241px;
+	}
+	img.logo
+	{
+		border:0;
+		position:absolute;
+		left:14px;
+		top:100px;
+	}
+	
+	/* MENU GORNE */
+	
+	div#gorne_menu
+	{
+		position:absolute;
+		left:25px;
+		bottom:0px;
+		
+	}
+	ul#wlasciwe_gorne_menu li
+	{
+		list-style-type:none;
+		float:left;
+		border-right: 1px solid white;
+	}
+	ul#wlasciwe_gorne_menu li a
+	{
+		background-color:#197B18;
+		color:white;
+		text-decoration:none;
+		display:inline-block;
+		float:left;
+		height:30px;
+		padding:0px 10px;
+		font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		font-weight:bold;	
+	}
+	ul#wlasciwe_gorne_menu li a:hover, #wlasciwe_gorne_menu li.aktualny a 
+	{
+		background-color:#003700;
+		color:#1FA346;
+	}
+	span.link
+	{
+		display:inline-block;
+		margin-top:5px;
+	}
+	
+	/* ŚRODKOWE MENU */
+	#srodkowe_menu
+	{
+		background-color:#003700;
+		width:765px;
+		height:32px;
+	}
+	#srodkowe_menu li
+	{
+		list-style:none;
+		float:left;
+	}
+	#srodkowe_menu li a
+	{
+		text-decoration:none;
+		color:white;
+		font-size:12px;
+		font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-style:italic;
+		font-weight:bold;
+	}
+	#srodkowe_menu li span.link2
+	{
+		display:block;
+		margin-top:7px;
+	}
+	#srodkowe_menu #pierwszy_poziom
+	{
+		margin-left:70px;
+	}
+	#srodkowe_menu span.odstep
+	{
+		display:inline-block;
+		margin:5px 10px 0px 10px;
+		color:white;
+	}
+	#srodkowe_menu li a:hover
+	{
+		color:#1FA346;
+	}
+
+		
+	/* MENU ROZWIJANE */
+	
+	#pierwszy_poziom ul.drugi_poziom
+	{
+		display:none;
+	}
+	#pierwszy_poziom li:hover ul.drugi_poziom
+	{
+		display:block;
+		width:210px;
+	}
+	#pierwszy_poziom ul.drugi_poziom li
+	{
+		width:150px;
+		text-align:left;
+	}
+	#pierwszy_poziom li
+	{
+		position:relative;
+	}
+	#pierwszy_poziom ul.drugi_poziom
+	{
+		position:absolute;
+		top:1.9em;
+		left:0em;
+	}
+	#pierwszy_poziom > li
+	{
+		height:32px;
+	}
+	#pierwszy_poziom ul.drugi_poziom
+	{
+		background-color:#003700;
+		border-left:4px solid gray;
+		border-bottom:1px solid gray;
+		border-right:1px solid gray;
+		opacity:0.7;
+		filter:alpha(opacity=70);
+	}	
+	#pierwszy_poziom ul.drugi_poziom li
+	{
+		margin-left:30px;
+		border-top:gray solid 1px;
+	}
+	#pierwszy_poziom ul.drugi_poziom li a
+	{
+		display:block;
+		width:150px;
+		margin-bottom:5px;
+		padding-bottom:5px;
+	}
+	#pierwszy_poziom ul.drugi_poziom li a:hover
+	{
+		background-color:white;
+		display:block;
+		padding-left:20px;
+		margin-left:-20px;
+		padding-right:20px;
+		margin-top:-1px;
+		border-top: 1px solid white;
+		color:black;
+		
+	}
+	#pierwszy_poziom ul.drugi_poziom li a
+	{
+		font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		font-style:normal;
+		font-weight:bold;
+	}
+	#pierwszy_poziom ul.drugi_poziom li.pierwszy_element_menu
+	{
+		margin-top:5px;
+	}
+	
+	/*ZAWARTOŚĆ GŁÓWNA STRONY */
+	
+	#zawartosc
+	{
+		width:765px;
+	}
+	
+	#gorna_czesc_zawartosci
+	{
+		width:765px;
+		height:17px;
+		background-image:url('images/gorna_czesc_zawartosci.jpg');
+	}
+	#srodkowa_czesc_zawartosci
+	{
+		background-color:white;
+		background-repeat:repeat-y;
+		width:765px;
+	}
+	#dolna_czesc_zawartosci
+	{
+		width:765px;
+		height:17px;
+		background-image:url('images/dolna_czesc_zawartosci.jpg');
+	}
+	#tekst
+	{
+		text-align:justify;
+		padding: 10px 50px;
+		line-height:140%;
+		font-size:12px;
+		font-family:"Trebuchet MS" Helvetica sans-serif;
+	}
+	h1
+	{
+		font-size:18px;
+		text-align:center;
+		color:#003700;
+		margin-bottom:22px;
+		font-variant:small-caps;
+	}
+	p
+	{
+		margin-bottom:15px;
+	}
+	ul#lista_parkow
+	{
+		margin-left:15px;
+	}
+	#tekst img.zdjecie_parku 
+	{
+		opacity:0.7;
+		filter:alpha(opacity=70);
+		padding:4px;	
+		position:relative;
+	}
+	#tekst a.usun_podkreslenie, fieldset a
+	{
+		text-decoration:none;
+	}
+	#tekst p.podpis_zdjecia
+	{
+		margin-left:10px;
+		display:inline-block;
+		padding:10px 35px;
+		font-size:12px;
+		font-family:"Trebuchet MS" Helvetica sans-serif;
+		
+	}
+	ul.park_zachodni_polozenie_i_atrakcje
+	{
+		margin-left:30px;
+		margin-bottom:30px;
+		line-height: 180%;	
+	}
+	#zawartosc .boczny_tekst1
+	{
+		width:170px;
+		margin: 10px 20px;
+		position: flex;
+		float:right;
+		right:350px;
+		bottom:-500px;
+		padding:10px;
+		line-height:30px;
+		
+		
+	}
+	#zawartosc .boczny_tekst1 fieldset
+	{
+		font-family:"Trebuchet MS" Verdana, Geneva, Arial, Helvetica, sans-serif;
+		padding-left:10px;
+		border-color:#003700;
+		border-style:1px solid;
+	}
+	
+	/* DOLNA CZĘŚĆ STRONY */
+	
+	#dolna_czesc_strony
+	{
+		background-image:url('images/766x242dol.jpg');
+		width:765px;
+		height:113px;
+		margin-bottom:10px;
+	}
+	#newsletter_icon
+	{
+		float:left;
+		margin-left:20px;
+		margin-top:20px;
+	}
+	#tekst_newsletter
+	{
+		color:white;
+		text-align:left;
+		padding-top:15px;
+	}
+	#naglowek_newsletter
+	{
+		font-size:15px;
+		font-family:"Comic Sans MS", cursive, sans-serif;
+		font-weight:bold;
+		
+	}
+	#form_newsletter
+	{
+		margin-top:10px;
+		font-size:12px;
+	}
+	.input_text
+	{
+		background-color: #197B18;
+		font-size:12px;
+	}
+	.submit_button
+	{
+		padding:5px;
+		font-size:10px;
+		font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-weight:bold;
+		cursor:pointer;
+		border:2px outset #197B18;
+	}
+	.submit_button:active
+	{
+		border: 2px inset #197B18;
+	}
+	.submit_button
+	{
+		color:green;
+	}
+	.submit_button:active
+	{
+		border:2px inset #197B18
+	}
+	#newsletter_info
+	{
+		font-size: 10px;
+		font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+		margin-left:25px;
+		margin-top:4px;	
+	}
+	#copyright
+	{
+		font-size:10px;
+		font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+		margin-bottom:10px;
+	}
