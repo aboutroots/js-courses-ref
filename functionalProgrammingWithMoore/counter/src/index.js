@@ -13,8 +13,19 @@ function view(model) {
         button({ className: 'pv1 pv2',
             onclick: () => console.log('- clicked!') }, '-'),
     ]);
+};
+
+function update(msg, model) {
+    switch (msg) {
+        case 'plus':
+            return model + 1;
+        case 'minus':
+            return model -1;
+        default:
+            return model;
+    }
 }
 
 const rootNode = document.getElementById('app');
 
-rootNode.appendChild(view(initModel));
+rootNode.appendChild(view(update('plus', initModel)));
