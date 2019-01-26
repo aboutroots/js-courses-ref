@@ -21,25 +21,25 @@ model = {
 ```
 
 ## View Functions
-
-view
-  formView
-    fieldSet
-    buttonSet
-  tableView
-    tableHeader
-    mealsBody
-      mealRow
-        cell
-      totalRow 
+ 
+- view
+- formView
+- fieldSet
+- buttonSet
+- tableView
+- tableHeader
+- mealsBody
+- mealRow
+- cell
+- totalRow 
 
 ## Update / Interactions
 
-click add meal
-meal input
-calorie input
-click save (add / update meal)
-click edit icon
-click delete icon
+- click add meal
+- meal input
+- calorie input
+- click save (add / update meal)
+- click edit icon
+- click delete icon
 
 There is around 6 different ways of interacting with the app which means there should be around six different types of messages that can be created and passed into the update function.
