@@ -1,7 +1,7 @@
 // initial Data Model
 const initModel = {
-    description: '',
-    calories: 0,
+    description: 'Breakfast',
+    calories: 500,
     showForm: false,
     nextId: 0,
     editId: null,
