@@ -1,0 +1,45 @@
+# Calorie Counting App Plan / Notes
+
+## Data Model
+
+Example Model/Shape: 
+
+```javascript
+meal = {
+  id: 1,
+  description: 'Breakfast', 
+  calories: 460
+}
+model = {
+  meals: [],
+  showForm: false,
+  description: 'Dinner',
+  calories: 600,
+  editId: 3,
+  nextId: 1,
+}
+```
+
+## View Functions
+
+view
+  formView
+    fieldSet
+    buttonSet
+  tableView
+    tableHeader
+    mealsBody
+      mealRow
+        cell
+      totalRow 
+
+## Update / Interactions
+
+click add meal
+meal input
+calorie input
+click save (add / update meal)
+click edit icon
+click delete icon
+
+There is around 6 different ways of interacting with the app which means there should be around six different types of messages that can be created and passed into the update function.
