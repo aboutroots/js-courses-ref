@@ -4,6 +4,7 @@ const MSGS = {
     SHOW_FORM: 'SHOW_FORM',
     MEAL_INPUT: 'MEAL_INPUT',
     CALORIES_INPUT: 'CALORIES_INPUT',
+    SAVE_MEAL: 'SAVE_MEAL',
 };
 
 export function mealInputMsg(description) {
@@ -19,6 +20,8 @@ export function caloriesInputMsg(calories) {
         calories,
     };
 };
+
+export const saveMealMsg = { type: MSGS.SAVE_MEAL };
 
 function update(msg, model) {
     switch(msg.type) {
@@ -37,8 +40,25 @@ function update(msg, model) {
             )(msg.calories);
             return { ...model, calories };
         }
+        case MSGS.SAVE_MEAL: {
+            return add(msg, model);
+        }
     }
     return model;
+};
+
+function add(msg, model) {
+    const { nextId, description, calories } = model;
+    const meal = { id: nextId, description, calories };
+    const meals = [ ...model.meals, meal ];
+    return {
+        ...model,
+        meals,
+        nextId: nextId + 1,
+        description: '',
+        calories: 0,
+        showForm: false,
+    };
 };
 
 export function showFormMsg(showForm) {
