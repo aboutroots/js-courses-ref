@@ -39,7 +39,7 @@ function app(initModel, update, view, node) {
     let model = initModel;                         //
     let currentView = view(dispatch, model);       //  przed kliknięciem
     let rootNode = createElement(currentView);     // 
-    node.appendChild(rootNode);
+    node.appendChild(rootNode);                    //
 
     function dispatch(msg) {
         model = update(msg, model);                        //
