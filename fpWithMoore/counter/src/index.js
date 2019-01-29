@@ -36,17 +36,17 @@ function update(msg, model) {
 // impure code below 
 
 function app(initModel, update, view, node) {
-    let model = initModel;
-    let currentView = view(dispatch, model);
-    let rootNode = createElement(currentView);
-    node.appendChild(rootNode);
+    let model = initModel;                         //
+    let currentView = view(dispatch, model);       //  przed kliknięciem
+    let rootNode = createElement(currentView);     // 
+    node.appendChild(rootNode);                    //
 
     function dispatch(msg) {
-        model = update(msg, model);
-        const updatedView = view(dispatch, model);
-        const patches = diff(currentView, updatedView);
-        rootNode = patch(rootNode, patches);
-        currentView = updatedView;
+        model = update(msg, model);                        //
+        const updatedView = view(dispatch, model);         //
+        const patches = diff(currentView, updatedView);    // po kliknięciu
+        rootNode = patch(rootNode, patches);               //
+        currentView = updatedView;                         //
     };
 };
 
