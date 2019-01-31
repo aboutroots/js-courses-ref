@@ -4,8 +4,8 @@ const MSGS = {
     SHOW_FORM: 'SHOW_FORM',
     MEAL_INPUT: 'MEAL_INPUT',
     CALORIES_INPUT: 'CALORIES_INPUT',
-    SAVE_MEAL: 'SAVE_MEAL',
-    DELETE_MEAL: 'DELETE_MEAL',
+    SAVE_MEAL: 'SAVE_MEAL',          // w tym przypadku, nie trzeba funkcji a zmienną, ponieważ nie mam tu ładunku w ciele wiadomosci
+    DELETE_MEAL: 'DELETE_MEAL',         
     EDIT_MEAL: 'EDIT_MEAL',
 };
 
