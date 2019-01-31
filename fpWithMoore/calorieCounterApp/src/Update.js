@@ -102,9 +102,9 @@ function add(msg, model) {
     };
 };
 
-export function showFormMsg(showForm) {
-    return {
-        type: MSGS.SHOW_FORM,
+export function showFormMsg(showForm) {               // zmieniam tu typ wiadomości przesyłanej w aplikacji
+    return {                                          // z stringu "SHOW_FORM: 'SHOW_FORM'" na obiekt, gdzie typem właściwości
+        type: MSGS.SHOW_FORM,                         // jest string
         showForm,
     };
 };
