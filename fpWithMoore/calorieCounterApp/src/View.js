@@ -110,8 +110,8 @@ function formView(dispatch, model) {
             },
             [
                 fieldSet('Meal', description,
-                    e => dispatch(mealInputMsg(e.target.value))
-                ),
+                    e => dispatch(mealInputMsg(e.target.value))    // wartość wprowadzona do pola tekstowego jest przechowywana
+                ),                                                 // w parametrze e
                 fieldSet('Calories', calories || '',
                     e => dispatch(caloriesInputMsg(e.target.value))
                 ),
