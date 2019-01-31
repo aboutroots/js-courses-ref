@@ -104,8 +104,8 @@ function add(msg, model) {
 
 export function showFormMsg(showForm) {               // zmieniam tu typ wiadomości przesyłanej w aplikacji
     return {                                          // z stringu "SHOW_FORM: 'SHOW_FORM'" na obiekt, gdzie typem właściwości
-        type: MSGS.SHOW_FORM,                         // jest string
-        showForm,
+        type: MSGS.SHOW_FORM,                         // jest string. Teraz mam dodatkową informację w wiadomości. Tutaj
+        showForm,                                     // dodatkową wiadomością jest showForm, czyli wartość boolean
     };
 };
 
