@@ -51,8 +51,8 @@ function update(msg, model) {
         }
         case MSGS.CALORIES_INPUT: {
             const calories = R.pipe(
-                parseInt,
-                R.defaultTo(0),
+                parseInt,                   // jeśli przekazana wartość do parseInt będzie niewłaściwa, zostanie zwrócone NaN
+                R.defaultTo(0),             // by temu zapobiec, korzystam z defaulTo
             )(msg.calories);
             return { ...model, calories };
         }
