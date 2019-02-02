@@ -1,6 +1,7 @@
 import * as R from 'ramda';
 import hh from 'hyperscript-helpers';
 import { h } from 'virtual-dom';
+import { leftValueInputMsg, rightValueInputMsg } from './Update';
 
 const {
   div,
@@ -20,11 +21,13 @@ function view(dispatch, model) {
         dispatch,
         model.leftUnit,
         model.leftValue,
+        leftValueInputMsg,
       ),
       unitSection(
         dispatch,
         model.rightUnit,
         model.rightValue,
+        rightValueInputMsg,
       ),
     ]),
     pre(JSON.stringify(model, null, 2)),
@@ -33,12 +36,13 @@ function view(dispatch, model) {
 
 export default view;
 
-function unitSection(dispatch, unit, value) {
+function unitSection(dispatch, unit, value, inputMsg) {
   return div({ className: 'w-50 ma1' }, [
     input({
       type: 'text',
       className: 'db w-100 mv2 pa2 input-reset ba',
-      value
+      value,
+      oninput: e => dispatch(inputMsg(e.target.value)),
     }),
     select({
       className: 'db w-100 pa2 ba input-reset br1 bg-white ba b--black',
