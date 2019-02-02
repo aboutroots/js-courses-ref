@@ -1,7 +1,7 @@
 import * as R from 'ramda';
 import hh from 'hyperscript-helpers';
 import { h } from 'virtual-dom';
-import { leftValueInputMsg, rightValueInputMsg } from './Update';
+import { leftValueInputMsg, rightValueInputMsg, leftUnitChangedMsg, rightUnitChangedMsg } from './Update';
 
 const {
   div,
@@ -22,12 +22,14 @@ function view(dispatch, model) {
         model.leftUnit,
         model.leftValue,
         leftValueInputMsg,
+        leftUnitChangedMsg,
       ),
       unitSection(
         dispatch,
         model.rightUnit,
         model.rightValue,
         rightValueInputMsg,
+        rightUnitChangedMsg,
       ),
     ]),
     pre(JSON.stringify(model, null, 2)),
@@ -36,7 +38,7 @@ function view(dispatch, model) {
 
 export default view;
 
-function unitSection(dispatch, unit, value, inputMsg) {
+function unitSection(dispatch, unit, value, inputMsg, unitMsg) {
   return div({ className: 'w-50 ma1' }, [
     input({
       type: 'text',
@@ -46,6 +48,7 @@ function unitSection(dispatch, unit, value, inputMsg) {
     }),
     select({
       className: 'db w-100 pa2 ba input-reset br1 bg-white ba b--black',
+      onchange: e => dispatch(unitMsg(e.target.value))
     },
     unitOptions(unit)),
   ]);
