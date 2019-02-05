@@ -43,8 +43,8 @@ function update(msg, model) {
     switch(msg.type) {
         case MSGS.SHOW_FORM: {
             const { showForm } = msg;
-            return { ...model, showForm, description: '', calories: 0 };
-        }
+            return { ...model, showForm, description: '', calories: 0 }; // użuwam operatora spread, by włączyć bieżące właściwości
+        }                                                                // modelu do tego obiektu
         case MSGS.MEAL_INPUT: {
             const { description } = msg;
             return { ...model, description };
