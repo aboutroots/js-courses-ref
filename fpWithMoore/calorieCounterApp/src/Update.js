@@ -66,7 +66,7 @@ function update(msg, model) {
         case MSGS.DELETE_MEAL: {
             const { id } = msg;
             const meals = R.filter(
-                meal => meal.id !== id,  // meal.id nie jest równe id posiłku, który chcę usunąć
+                meal => meal.id !== id,  // meal.id nie jest równe id posiłkowi, który chcę usunąć
                 model.meals);
             return { ...model, meals };
         }
