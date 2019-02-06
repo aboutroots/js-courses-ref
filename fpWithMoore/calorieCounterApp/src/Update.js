@@ -73,8 +73,8 @@ function update(msg, model) {
         case MSGS.EDIT_MEAL: {
             const { editId } = msg;
             const meal = R.find(
-                meal => meal.id === editId,
-                model.meals);
+                meal => meal.id === editId, // funkcja jako pierwszy parametr funkcji Ramda. Jeśli zwróci true, meal zostanie
+                model.meals);               // zwrócony przez find. Jeśli false, wtedy wywołuje tą funkcję na kolejnym elemencie tablicy
             const { description, calories } = meal;
             return {
                 ...model,
