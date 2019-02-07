@@ -70,7 +70,7 @@ function update(msg, model) {
                 model.meals);            // czyli znajduję tu to, co chcę usunąć
             return { ...model, meals };
         }
-        case MSGS.EDIT_MEAL: {              // PRZED EDYCJĄ, ALE PO KLIKNIĘCIU NA IKONĘ EDYTUJ
+        case MSGS.EDIT_MEAL: {              // TO WYKONUJE SIĘ PIERWSZE, PRZED FUNKCJĄ EDIT(MSG, MODEL)
             const { editId } = msg;
             const meal = R.find(
                 meal => meal.id === editId, // funkcja jako pierwszy parametr funkcji Ramda. Jeśli zwróci true, meal zostanie
@@ -109,7 +109,7 @@ export function showFormMsg(showForm) {               // zmieniam tu typ wiadomo
     };                                                // Dzięki takim funkcjom, widać wyraźnie ładunek wiadomości
 };
 
-function edit(msg, model) {                           // CO MA SIĘ STAĆ PO EDYCJI - CZYLI GDY JEJ JUŻ DOKONAM
+function edit(msg, model) {                           
     const { description, calories, editId } = model;
     const meals = R.map(meal => {
         if (meal.id === editId) {
