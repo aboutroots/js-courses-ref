@@ -58,7 +58,7 @@ function update(msg, model) {
         }
         case MSGS.SAVE_MEAL: {                    
             const { editId } = model;                 // tu sprawdzam, czy aplikacja jest w 'edit mode' czy 'add mode'
-            const updatedModel = editId !== null ?
+            const updatedModel = editId !== null ?    // dzięki editId w modelu
             edit(msg, model) : 
             add(msg, model);
             return updatedModel;
