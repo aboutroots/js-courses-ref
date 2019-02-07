@@ -109,7 +109,7 @@ export function showFormMsg(showForm) {               // zmieniam tu typ wiadomo
     };                                                // Dzięki takim funkcjom, widać wyraźnie ładunek wiadomości
 };
 
-function edit(msg, model) {                           // CO MA SIĘ STAĆ, PO EDYCJI
+function edit(msg, model) {                           // CO MA SIĘ STAĆ PO EDYCJI - CZYLI GDY JEJ JUŻ DOKONAM
     const { description, calories, editId } = model;
     const meals = R.map(meal => {
         if (meal.id === editId) {
