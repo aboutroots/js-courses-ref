@@ -61,6 +61,7 @@ function view(dispatch, model) {
     h1({ className: 'f2 pv2 bb' }, ['Weather']),
     locationForm(dispatch, model),
     locations(dispatch, model),
+    pre(JSON.stringify(model, null, 3))
   ]);
 }
 
