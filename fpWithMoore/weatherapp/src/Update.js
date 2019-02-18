@@ -58,7 +58,7 @@ function update(msg, model) {
       const { location } = msg;
       return { ...model, location };
     }
-    case MSGS.ADD_LOCATION: {
+    case MSGS.ADD_LOCATION: {                               // To miejsce, gdzie chcę zwrócić url, by uruchomiść zapytanie do serwera.
       const { nextId, location, locations } = model;
       const newLocation = {
         id: nextId,
@@ -76,7 +76,7 @@ function update(msg, model) {
         },
         {
           request: { url: weatherUrl(location) },
-          successMsg: httpSuccessMsg(nextId),
+          successMsg: httpSuccessMsg(nextId),           // używam tu parial application, przesyłam tylko id miasta
           errorMsg: httpErrorMsg,
         }
       ];
@@ -89,11 +89,11 @@ function update(msg, model) {
     }
     case MSGS.HTTP_SUCCESS: {
       const { id, response } = msg;
-      const { locations } = model;
-      const { temp, temp_min, temp_max } = R.pathOr(
-        {},
-        ['data', 'main'],
-        response,
+      const { locations } = model;        
+      const { temp, temp_min, temp_max } = R.pathOr(  // Te dane powinny być dostepne z response.data.main, jednak czasem mogę otrzymać
+        {},                // domyślnie                  coś innego. 
+        ['data', 'main'],  // ścieżka, jakiej szukam
+        response,          // dane, na których działam
       );
       const updatedLocations = R.map(location => {
         if (location.id === id) {
