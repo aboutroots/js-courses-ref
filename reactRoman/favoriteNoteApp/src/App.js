@@ -1,14 +1,13 @@
 import React from "react";
-import ListWrapper from "./components/ListWrapper/ListWrapper";
+import List from "./components/List/List";
 import "./index.css";
 import Form from "./components/Form/Form";
 
 const initialStateItems = [
   {
-    image:
-      "https://avatars1.githubusercontent.com/u/810438?s=460&v=4",
+    image: "https://avatars1.githubusercontent.com/u/810438?s=460&v=4",
     name: "Dan Abramov",
-    description: "The creator of React",
+    description: "React core member",
     twitterLink: "https://twitter.com/dan_abramov"
   }
 ];
@@ -38,7 +37,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <ListWrapper items={this.state.items} />
+        <List items={this.state.items} />
         <Form submitFn={this.addItem} />
       </div>
     );
