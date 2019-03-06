@@ -45,9 +45,9 @@ class App extends Component {
   render() {
     let persons = null;
 
-    if (this.state.showPersons) {
-      persons = (
-        <div>
+    if (this.state.showPersons) { 
+      persons = ( // poniżej jako argument metody map muszę zwrócić JSX
+        <div> 
           {this.state.persons.map((person, index) => {
             return <Person 
               click={() => this.deletePersonHandler(index)}
