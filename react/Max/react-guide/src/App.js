@@ -13,22 +13,22 @@ class App extends Component {
   }
 
   nameChangeHandler = (event, id) => {
-    const personIndex = this.state.persons.findIndex(p => {
+    const personIndex = this.state.persons.findIndex(p => {                 // 1. Najpierw znajduję index
       return p.id === id;
     });
 
-    const person = {
+    const person = {                                                        // 2. Uzyskuję konkretną osobę niezmieniając stanu 
       ...this.state.persons[personIndex],
     };
     // alternatywa: Object.assingn({}, this.state.persons[persinIndex]);
 
-    person.name = event.target.value;
+    person.name = event.target.value;                                       // 3. Aktualizuję imię przez (kopię obiektu) person
 
-    const persons = [...this.state.persons];
-    persons[personIndex] = person;
+    const persons = [...this.state.persons];                                // 4. Aktualizuję tablicę na pozycji którą znalazłem
+    persons[personIndex] = person;                                          //    Mam kopię w persons i aktualizuję w jednej pozycji
 
-    this.setState({ persons: persons })
-  }
+    this.setState({ persons: persons })                                     // 5. Ustawiam state na zaktualizowaną tablicę, która jest kopią 
+  }                                                                         //    starej tablicy
 
   togglePersonHandler = () => {
     const doesShow = this.state.showPersons;
@@ -36,7 +36,7 @@ class App extends Component {
   }
 
   deletePersonHandler = (personIndex) => {
-    // const persons = this.state.persons.slice();
+    // alternatywa: const persons = this.state.persons.slice();
     const persons = [...this.state.persons];
     persons.splice(personIndex, 1);
     this.setState({persons: persons})
