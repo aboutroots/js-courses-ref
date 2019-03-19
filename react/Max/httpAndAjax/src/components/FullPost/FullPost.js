@@ -3,13 +3,13 @@ import axios from 'axios';
 
 import './FullPost.css';
 
-class FullPost extends Component {
-    state = {
-        loadedPost: null,
-    }
-
-    componentDidUpdate() {
-        if (this.props.id) {
+class FullPost extends Component {       
+    state = {                            
+        loadedPost: null,                
+    }                                    
+                                                                   /*** KOMENTARZ do drugiego if ***/
+    componentDidUpdate() {      // CZYLI WYKONUJĘ ZAPYTANIE, GDY: nie mam załadowanego postu LUB jeśli mam jeden, ALE id jest inne niż to
+        if (this.props.id) {    // dostarczone z propsów
             if ( !this.state.loadedPost || (this.state.loadedPost && this.state.loadedPost.id !== this.props.id) ) {
                 axios.get('/posts/' + this.props.id)
                     .then(response => {
