@@ -7,7 +7,7 @@ import Backdrop from '../Backdrop/Backdrop';
 class Modal extends Component {
 
   shouldComponentUpdate(nextProps, nextState) {  // tylko aktualizacja, gdy zmieniam show
-    return (nextProps.show !== this.props.show) 
+    return (nextProps.show !== this.props.show || nextProps.children !== this.props.children) 
   }
 
   componentWillUpdate() {
