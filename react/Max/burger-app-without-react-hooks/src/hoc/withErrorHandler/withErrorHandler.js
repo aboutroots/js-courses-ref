@@ -20,7 +20,21 @@ const withErrorHandler = (WrappedComponent, axios) => {
       })
     }
 
-    // to zapewnia, że gdy nie potrzebuję komponenty BurgerBuilder, to czyszczę interceptory. Więc jeśli ponownie używam
+    /**********  DO componentWillUnmount:
+     
+    Problemem jest to, że jak dodam HOC withErrorHandler do innego komponentu, zostanie ciągle wywoływana metoda
+    componentWillMount() (Bo klasa zwracana w tym komponenecie wyższego rzędu jest tworzona za każdym razem, czyli za każdym razem,
+    gry wywołam withErrorHandler) 
+
+    W przypadku wielu stron, gdy wiele razy chciałbym użyć tej obsługi błędu, tworzę ten komponent wiele razy. Z tego powodu
+    stare interceptory ciągle istnieją. Czyli mam wiele interceptorów istniejących w pamięci, które nie są potrzebne. 
+
+    POWINIENEM WIĘC USUNAĆ INTERCEPTORY, GDY KOMPONENT JEST ROZMONTOWYWANY. componentWillUnmount to metoda, która jest wykonywana
+    w czasie, gdy komponent nie jest już potrzebny.
+
+    **********/
+
+    // Ten componentWillMount zapewnia, że gdy nie potrzebuję komponentu BurgerBuilder, to czyszczę interceptory. Więc jeśli ponownie używam
     // withErrorHandling w BurgerBuilder to nie tworzę coraz to więcej interceptorów
     componentWillUnmount() {
       axios.interceptors.request.eject(this.reqInterceptor);
