@@ -8,16 +8,17 @@ class FullPost extends Component {
         loadedPost: null,                
     }                                    
                                                                    /*** KOMENTARZ do drugiego if ***/
-    componentDidUpdate() {      // CZYLI WYKONUJĘ ZAPYTANIE, GDY: nie mam załadowanego postu LUB jeśli mam jeden, ALE id jest inne niż to
-        if (this.props.id) {    // dostarczone z propsów
+    componentDidMount() {                   // CZYLI WYKONUJĘ ZAPYTANIE, GDY: nie mam załadowanego postu LUB jeśli mam jeden, ALE id jest inne niż to
+        if (this.props.match.params.id) {    // dostarczone z propsów
             if ( !this.state.loadedPost || (this.state.loadedPost && this.state.loadedPost.id !== this.props.id) ) {
-                axios.get('/posts/' + this.props.id)
+                axios.get('/posts/' + this.props.match.params.id)
                     .then(response => {
                         //console.log(response);
                         this.setState({ loadedPost: response.data })
                     })
             }
         }
+        console.log(this.props)
     }
 
     deletePostHandler = () => {
