@@ -42,3 +42,10 @@ A posts container has also been added.
 6. Load the "Course" component as a nested component of "Courses"
 7. Add a 404 error page and render it for any unknown routes
 8. Redirect requests to /all-courses to /courses (=> Your "Courses" page)
+
+## LazyLoading with React Suspense
+
++ [ ] Load Posts and User components only when needed
+    with Routing
+    with toggle button
+    
