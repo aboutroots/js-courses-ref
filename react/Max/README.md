@@ -46,6 +46,6 @@ A posts container has also been added.
 ## LazyLoading with React Suspense
 
 + [ ] Load Posts and User components only when needed
-    with Routing
-    with toggle button
+- with Routing
+- with toggle button
     
