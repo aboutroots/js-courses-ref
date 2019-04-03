@@ -51,10 +51,10 @@ A posts container has also been added.
 
 ## Redux-building blocks
 
-*** write all the building blocks of redux ***
-*** execute this file in node.js ***
+***write all the building blocks of redux*** <br />
+***execute this file in node.js***
 
-*** create everything that need to use redux ***
+***create everything that need to use redux***
 	(store, reducer, action, subscription)
 
 1. First create a store with a reducer and initialize the state
