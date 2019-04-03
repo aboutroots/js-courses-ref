@@ -48,4 +48,16 @@ A posts container has also been added.
 + [ ] Load Posts and User components only when needed
 - with Routing
 - with toggle button
+
+## Redux-building blocks
+
+*** write all the building blocks of redux ***
+*** execute this file in node.js ***
+
+*** create everything that need to use redux ***
+	(store, reducer, action, subscription)
+
+1. First create a store with a reducer and initialize the state
+2. Dispatch actions
+3. Add subscriptions
     
