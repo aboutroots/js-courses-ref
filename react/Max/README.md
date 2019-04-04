@@ -1,4 +1,6 @@
+<p align="center">
 # TO-DO LIST
+</p>
 
 ***
 
@@ -6,11 +8,11 @@
 List of tasks to be done below. Everything comes from the courses.
 </p>
 
-* [httpAndAjax](#httpAndAjax)
-* [Routing](#routing)
-* [LazyLoading with React Suspense](#lazyLoading-with-react-suspense)
-* [Redux-building blocks](#redux-building-blocks)
-* [Redux assignment](#redux-assignment)
+* [httpAndAjax](#-httpAndAjax)
+* [Routing](#-routing)
+* [LazyLoading with React Suspense](#-lazyLoading-with-react-suspense)
+* [Redux-building blocks](#-redux-building-blocks)
+* [Redux assignment](#-redux-assignment)
 
 ***
 
