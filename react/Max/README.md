@@ -60,4 +60,17 @@ A posts container has also been added.
 1. First create a store with a reducer and initialize the state
 2. Dispatch actions
 3. Add subscriptions
+
+## Redux assignment
+
+- connect react app to redux (redux package)
+- start from creating: store and reducer (separate folder)
+- connect store to react app (with react-redux package and connect)
+- output state from redux in counter.js file
+- dispatch actions:
+	increase the number by one <br />
+	decrement <br />
+	add <br />
+	subtract <br />
+(add hardcoded value in the reducer function)
     
