@@ -7,10 +7,10 @@
 ***
 
 <p align="center">
-List of tasks to be done below. Everything comes from the courses.
+🎉List of tasks to be done below. Everything comes from the courses.🎉
 </p>
 
-* [HttpAndAjax](#-httpAndAjax)
+* [httpAndAjax](#-httpAndAjax)
 * [Routing](#-routing)
 * [LazyLoading with React Suspense](#-lazyLoading-with-react-suspense)
 * [Redux-building blocks](#-redux-building-blocks)
