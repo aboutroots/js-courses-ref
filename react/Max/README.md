@@ -1,6 +1,20 @@
 # TO-DO LIST
 
-## httpAndAjax  (https://jsonplaceholder.typicode.com/)
+***
+
+<p align="center">
+List of tasks to be done below. Everything comes from the courses.
+</p>
+
+* [httpAndAjax](#httpAndAjax)
+* [Routing](#routing)
+* [LazyLoading with React Suspense](#lazyLoading-with-react-suspense)
+* [Redux-building blocks](#redux-building-blocks)
+* [Redux assignment](#redux-assignment)
+
+***
+
+## 🚀 httpAndAjax  (https://jsonplaceholder.typicode.com/)
 
 STARTER
  
@@ -32,7 +46,7 @@ A posts container has also been added.
 + [ ] create nested rout - render FullPost inside Posts.js (beneath)
 + [ ] make sure you have Dynamic Nested Routes
 
-## Routing
+## 🚀 Routing
 
 1. Add Routes to load "Users" and "Courses" on different pages (by entering a URL, without Links)
 2. Add a simple navigation with two links => One leading to "Users", one leading to "Courses"
@@ -43,13 +57,13 @@ A posts container has also been added.
 7. Add a 404 error page and render it for any unknown routes
 8. Redirect requests to /all-courses to /courses (=> Your "Courses" page)
 
-## LazyLoading with React Suspense
+## 🚀 LazyLoading with React Suspense
 
 + [ ] Load Posts and User components only when needed
 - with Routing
 - with toggle button
 
-## Redux-building blocks
+## 🚀 Redux-building blocks
 
 ***write all the building blocks of redux*** <br />
 ***execute this file in node.js***
@@ -61,7 +75,7 @@ A posts container has also been added.
 2. Dispatch actions
 3. Add subscriptions
 
-## Redux assignment
+## 🚀 Redux assignment
 
 1. connect react app to redux (redux package)
 2. start from creating: store and reducer (separate folder)
