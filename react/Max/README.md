@@ -1,6 +1,8 @@
-<p align="center">
+<div align="center">
+
 # TO-DO LIST
-</p>
+
+</div>
 
 ***
 
@@ -8,7 +10,7 @@
 List of tasks to be done below. Everything comes from the courses.
 </p>
 
-* [httpAndAjax](#-httpAndAjax)
+* [HttpAndAjax](#-httpAndAjax)
 * [Routing](#-routing)
 * [LazyLoading with React Suspense](#-lazyLoading-with-react-suspense)
 * [Redux-building blocks](#-redux-building-blocks)
