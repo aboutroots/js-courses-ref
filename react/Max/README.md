@@ -63,14 +63,20 @@ A posts container has also been added.
 
 ## Redux assignment
 
-- connect react app to redux (redux package)
-- start from creating: store and reducer (separate folder)
-- connect store to react app (with react-redux package and connect)
-- output state from redux in counter.js file
-- dispatch actions:
-	increase the number by one <br />
-	decrement <br />
-	add <br />
-	subtract <br />
+1. connect react app to redux (redux package)
+2. start from creating: store and reducer (separate folder)
+3. connect store to react app (with react-redux package and connect)
+4. output state from redux in counter.js file
+5. dispatch actions:
+	- increase the number by one
+	- decrement
+	- add
+	- subtract
 (add hardcoded value in the reducer function)
+6. pass and retrieve data (payload) with action
+7. add switch-case in the reducer (if you have not done it before)
+8. Add a button that adds the value of the counter below. To do this, add another item to state, for example results: []
+   Update state immutably - ***do it in two ways***
+9. Additionally, when click on the result, remove it from the above array
+  (update array immutably ***in to ways*** - with spread op. and filter method)
     
