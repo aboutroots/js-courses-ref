@@ -18,7 +18,8 @@
 
 ***
 
-## 🚀 httpAndAjax  (https://jsonplaceholder.typicode.com/)
+## 🚀 httpAndAjax  
+(https://jsonplaceholder.typicode.com/)
 
 STARTER
  
