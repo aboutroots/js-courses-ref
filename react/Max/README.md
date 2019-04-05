@@ -82,6 +82,8 @@ A posts container has also been added.
 
 ## 🚀 Redux assignment
 
+START:
+
 1. connect react app to redux (redux package)
 2. start from creating: store and reducer (separate folder)
 3. connect store to react app (with react-redux package and connect)
@@ -90,7 +92,7 @@ A posts container has also been added.
 	- increase the number by one
 	- decrement
 	- add
-	- subtract
+	- subtract <br />
 (add hardcoded value in the reducer function)
 6. pass and retrieve data (payload) with action
 7. add switch-case in the reducer (if you have not done it before)
@@ -98,4 +100,16 @@ A posts container has also been added.
    Update state immutably - ***do it in two ways***
 9. Additionally, when click on the result, remove it from the above array
   (update array immutably ***in to ways*** - with spread op. and filter method)
-    
+10. Outsource your action types into constants you can use in your application, 
+	so that you always just import a constant (into reducer.js and Counter.js) and eliminate the
+    danger of mistyping.
+	(If you only have two types of actions you dispatch, you might not need that)
+	- start by adding the action.js file in the store folder
+	
+MID:
+
+11. Use multiple reducers
+	- one for the counter
+	- one for the results
+	- add a new reducers folder (in store), and then add counter.js and result.js files
+12. Connect reducers using the helper function from the redux package
