@@ -119,8 +119,23 @@ MID:
 
 ***Turn this app into one which does NOT use local state (in components) but instead uses Redux***
 
+START
+
 1. First, install redux and react redux.
 2. Create a reducer and store (start by adding a new store folder, and in it reducer.js).
 3. For the action, create a separate file in the store folder.
 4. Connect React App to the state.
-3. Create mapStateToProps and mapDispatchToProps to manage persons array and actions related to it.
+5. Create mapStateToProps and mapDispatchToProps to manage persons array and actions related to it.
+
+MID:
+
+***Combining Local UI State and Redux*** Whatever the user entered into these inputs below, probably isn't relevant to the entire
+application, there is no need to store this in the global Redux store
+
+6. Add input fields to the application to add values (name and age) - It's a typical case of local UI state.
+7. Turn AddPerson.js into a component using the class keyword to manage the state of these inputs
+	(that is, you must have a state and two methods that add age and name to your state).
+8. ***Combine both, local UI state to handle the input and then still Redux to handle the created person which affects broader parts of our application.***
+- by passing data (name and age) as arguments
+- handle this data in the Persons.js container
+9. Then in the reducer, extract the value that the user entered
