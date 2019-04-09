@@ -15,7 +15,7 @@
 * [LazyLoading with React Suspense](#-lazyLoading-with-react-suspense)
 * [Redux-building blocks](#-redux-building-blocks)
 * [Redux assignment](#-redux-assignment)
-* [Redux assignment 2](#-redux-assignment-2)
+* [Redux assignment-2](#-redux-assignment-2)
 
 ***
 
@@ -115,10 +115,12 @@ MID:
 	- add a new reducers folder (in store), and then add counter.js and result.js files
 12. Connect reducers using the helper function from the redux package
 
-## Redux assignment 2
+## 🚀 Redux assignment-2
 
 ***Turn this app into one which does NOT use local state (in components) but instead uses Redux***
 
 1. First, install redux and react redux.
-2. Create a reducer and store (set up store by adding Provider).
+2. Create a reducer and store (start by adding a new store folder, and in it reducer.js).
+3. For the action, create a separate file in the store folder.
+4. Connect React App to the state.
 3. Create mapStateToProps and mapDispatchToProps to manage persons array and actions related to it.
