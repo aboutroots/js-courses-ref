@@ -139,3 +139,14 @@ application, there is no need to store this in the global Redux store
 - by passing data (name and age) as arguments
 - handle this data in the Persons.js container
 9. Then in the reducer, extract the value that the user entered
+
+## Redux Middleware
+
+1. Add Redux Middleware to the current project
+2. Create your own middleware (in index.js), which simply logs each action you issue.
+3. Apply this middleware to store.
+- first of all, you need to import something from redux,
+- add an enhancer
+4. Output in the console two logs:
+- the first one is the dispatching log where you see the action youe dispatched
+- the second one is the next state where you see the updated state
