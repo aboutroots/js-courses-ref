@@ -16,6 +16,7 @@
 * [Redux-building blocks](#-redux-building-blocks)
 * [Redux assignment](#-redux-assignment)
 * [Redux assignment-2](#-redux-assignment-2)
+* [Redux Middleware](#-redux-middleware)
 
 ***
 
@@ -140,7 +141,9 @@ application, there is no need to store this in the global Redux store
 - handle this data in the Persons.js container
 9. Then in the reducer, extract the value that the user entered
 
-## Redux Middleware
+## 🚀 Redux Middleware
+
+START:
 
 1. Add Redux Middleware to the current project
 2. Create your own middleware (in index.js), which simply logs each action you issue.
@@ -150,3 +153,8 @@ application, there is no need to store this in the global Redux store
 4. Output in the console two logs:
 - the first one is the dispatching log where you see the action youe dispatched
 - the second one is the next state where you see the updated state
+5. Set up Redux DevTools (https://github.com/zalmoxisus/redux-devtools-extension)
+- install the extension
+- inform this extension that there is a store in your web app
+* to do this, create your own constant, with a variable injected by the extension
+* create a CreateStore and use the created constant, to then pass applyMiddleware to it - as in the documentation
