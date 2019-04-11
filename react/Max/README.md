@@ -156,5 +156,5 @@ START:
 5. Set up Redux DevTools (https://github.com/zalmoxisus/redux-devtools-extension)
 - install the extension
 - inform this extension that there is a store in your web app
-* to do this, create your own constant, with a variable injected by the extension
-* create a CreateStore and use the created constant, to then pass applyMiddleware to it - as in the documentation
+  to do this, create your own constant, with a variable injected by the extension <br />
+  create a CreateStore and use the created constant, to then pass applyMiddleware to it - as in the documentation <br />
