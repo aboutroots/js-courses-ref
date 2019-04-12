@@ -156,5 +156,11 @@ START:
 5. Set up Redux DevTools (https://github.com/zalmoxisus/redux-devtools-extension)
 - install the extension
 - inform this extension that there is a store in your web app
-  to do this, create your own constant, with a variable injected by the extension <br />
-  create a CreateStore and use the created constant, to then pass applyMiddleware to it - as in the documentation <br />
+* to do this, create your own constant, with a variable injected by the extension
+* create a CreateStore and use the created constant, to then pass applyMiddleware to it - as in the documentation
+
+MID: 
+
+(create a new folder named actions in the store and transfer actions.js there) <br />
+1. Apply a new way of creating actions, so-called ***action creators***
+2. Create an action creator for synchronous code in action.js file and adjust actions in Counter.js
