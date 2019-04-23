@@ -13,7 +13,7 @@ A complete log of my web development skills, learning, resources, highlights, in
 |**JavaScript**                    | ![done][done]     | ![done][done] |               |                  |                |                 |
 |**Website Building**              | ![done][done]     | ![done][done] | ![done][done] |                  |                |                 |
 |**Wire Frame**                    | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Responsive Design**             | ![done][done]     | ![done][done] | ![done][done] |                  |                |                 |
+|**Responsive Design**             | ![done][done]     | ![done][done] |               |                  |                |                 |
 |**Mobile First**                  | ![done][done]     |               |               |                  |                |                 |
 |**Progressive Enhancement**       |                   |               |               |                  |                |                 |
 |**CSS Grid & Flex-box**           | ![done][done]     | ![done][done] |               |                  |                |                 |
@@ -43,7 +43,7 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 |            Status           |  Completed  | Course                                                          | Tutor                     | My Review      |
 |:---------------------------:|:---------   |:----------------------------------------------------------------|:-------------------------:|:--------------:|
-| ![Completed][Completed]     |  Oct'18     | [EGGHEAD - Getting Started with Redux]                          | [Dan Abramov]             |                |
+| ![Completed][Completed]     |  Oct'19     | [EGGHEAD - Getting Started with Redux]                          | [Dan Abramov]             |                |
 | ![Completed][Completed]     |  Mar'19     | [EDUWEB - Kurs React od Podstaw]                                | [Adam Romański]           |                |
 | ![Completed][Completed]     |  Feb'19     | [UDEMY - Functional Programming For Beginners With JavaScript]  | [James Moore]             |                |
 | ![Completed][Completed]     |  Jan'19     | [UDEMY - Advanced Javascript]                                   | [Asim Hussain]            |                |
