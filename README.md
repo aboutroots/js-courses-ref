@@ -62,20 +62,20 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 
 [//]: # (Reference links to courses)
-[EGGHEAD - Getting Started with Redux]: https://egghead.io/instructors/dan-abramov
+[EGGHEAD - Getting Started with Redux]: https://egghead.io/courses/getting-started-with-redux
 [EDUWEB - Kurs React od Podstaw]: https://eduweb.pl/kursy/javascript/react-od-podstaw.html
-[UDEMY - Functional Programming For Beginners With JavaScript]: https://cssgrid.io/
+[UDEMY - Functional Programming For Beginners With JavaScript]: https://www.udemy.com/functional-programming-for-beginners-with-javascript/
 [UDEMY - Advanced Javascript]: https://www.udemy.com/javascript-advanced/
 [UDEMY - WordPress for Entrepreneurs Management of your own ...]: https://www.udemy.com/wordpress-for-business-management-of-your-own-website/
 [UDEMY - MINI KURS „ZAPLANUJ BLOGA/STRONĘ” ]: https://www.udemy.com/kurs-online-wordpress-pro/
-[UDEMY - NOWY Kurs WordPress ZEROdoPRO]: https://www.udemy.com/kurs-zaplanuj-bloga-strone/
+[UDEMY - NOWY Kurs WordPress ZEROdoPRO ...]: https://www.udemy.com/kurs-zaplanuj-bloga-strone/
 [UDEMY - Object-oriented Programming in JavaScript]: https://www.udemy.com/javascript-object-oriented-programming/                                
 [UDEMY - Web Design for Web Developers ...]: https://www.udemy.com/web-design-secrets/                      
-[UDEMY - The Complete JavaScript Course 2018 ...]: https://www.sololearn.com/Course/CSS/
+[UDEMY - The Complete JavaScript Course 2018 ...]: https://www.udemy.com/the-complete-javascript-course/
 [UDEMY - Git Beginner in VS Code]: https://www.udemy.com/draft/1249876/
 [UDEMY - Advanced CSS and SASS: Flexbox, Grid, Animations]: https://www.udemy.com/advanced-css-and-sass/
 [UDEMY - JavaScript od Podstaw do Eksperta]: https://www.udemy.com/javascript-od-podstaw-do-eksperta/
-[UDEMY - Kurs Tworzenia Stron WWW w HTML i CSS od Podstaw do Eksperta]: https://www.udemy.com/kurs-tworzenia-stron-www-w-html-i-css-od-podstaw-do-eksperta/
+[UDEMY - Kurs Tworzenia Stron WWW w HTML i CSS ...]: https://www.udemy.com/kurs-tworzenia-stron-www-w-html-i-css-od-podstaw-do-eksperta/
 
 [UDEMY - React - The Complete Guide (incl Hooks ...)]: https://www.udemy.com/react-the-complete-guide-incl-redux/
 
@@ -90,11 +90,11 @@ A complete log of my web development skills, learning, resources, highlights, in
 [Asim Hussain]: https://www.udemy.com/user/asimhussain/ 
 [Laurence Svekis]: https://www.udemy.com/user/lars51/
 [Dawid Polsakiewicz]: https://www.udemy.com/user/dawid-polsakiewicz/
-[Mosh Hamedani]: https://www.udemy.com/user/moshfeghhamedani/
-[Jonas Schmedtmann]: https://www.udemy.com/user/jonasschmedtmann/
+[Mosh Hamedani]: https://programmingwithmosh.com/about/
+[Jonas Schmedtmann]: https://codingheroes.io/
 [Alan Simpson]: https://www.udemy.com/user/alan-simpson-8/
 [Arkadiusz Włodarczyk]: https://www.udemy.com/user/arkadiuszwodarczyk/
-[Maximilian Schwarzmüller]: https://www.udemy.com/user/maximilian-schwarzmuller/
+[Maximilian Schwarzmüller]: https://www.academind.com/
 [Andrei Neagoie]: https://www.udemy.com/user/andrei-neagoie/
 
 [//]: # (Reference links to review)
