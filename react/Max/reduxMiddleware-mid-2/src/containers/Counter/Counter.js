@@ -40,7 +40,7 @@ const mapDispatchToProps = dispatch => {
         onDecrementCounter: () => dispatch(actionCreators.decrement()),
         onAddCounter: () => dispatch(actionCreators.add(10)),
         onSubtractCounter: () => dispatch(actionCreators.subtract(15)),
-        onStoreResult: (result) => dispatch(actionCreators.storeResult(result)), // jako kolejny arg mogę przekazać dostęp do stanu (MID-2 pkt 5)
+        onStoreResult: (result) => dispatch(actionCreators.storeResult(result)),
         onDeleteResult: (id) => dispatch(actionCreators.deleteResult(id))
     }
 };

@@ -159,7 +159,7 @@ START:
 * to do this, create your own constant, with a variable injected by the extension
 * create a CreateStore and use the created constant, to then pass applyMiddleware to it - as in the documentation
 
-MID: 
+MID: ***asynchronous code*** <br />
 
 (create a new folder named actions in the store and transfer actions.js there) <br />
 1. Apply a new way of creating actions, so-called ***action creators***
@@ -169,9 +169,16 @@ MID:
  (https://github.com/reduxjs/redux-thunk)
 - after installing it, add it with applyMiddleware
 - execute in storeResult (actions.js) async code - after 2 seconds we want to store the result
-- to do this, you need return a function
+- to do this, you need return a function <br />
 ***Restructuring Actions*** <br />
 4. Split up actions: 
 - create new files (counter.js and result.js in actions folder)
 - create one file exporting all action creators (index.js)
+
+MID-2:
+
+5. Add another utility method (when working with thunk), to get the current state. Output counter 
+in the console:
+- do this with getState in action creators
+- without getState (pass all the data you need in async action creator by accepting it as an argument)
 
