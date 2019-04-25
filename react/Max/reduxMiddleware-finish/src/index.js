@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';  // compose jest podobne do combineReducers, 
                                                                                  // combineReducer wiąże reduktory, compose łączy enhancery
+import thunk from 'redux-thunk';
+
 import counterReducer from './store/reducers/counter';
 import resultReducer from './store/reducers/result';
 import './index.css';
@@ -33,7 +35,7 @@ const logger = store => {
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; // lub powróć do domyślnej fn compose dostarczonej od redux
                                                                                  // która nie daje wsparcia dla redux devtools
                                    // drugi argument to enhancer, np. applyMiddleware. Enhancer dodaje dodatkowe możliwości do store.
-const store = createStore(rootReducer, composeEnhancers(applyMiddleware(logger)));
+const store = createStore(rootReducer, composeEnhancers(applyMiddleware(logger, thunk)));
 
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
 registerServiceWorker();

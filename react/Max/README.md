@@ -164,3 +164,10 @@ MID:
 (create a new folder named actions in the store and transfer actions.js there) <br />
 1. Apply a new way of creating actions, so-called ***action creators***
 2. Create an action creator for synchronous code in action.js file and adjust actions in Counter.js
+3. Handle asynchronous code. 
+- to handle asynchronous code, you need to add a special middleware <br />
+ (https://github.com/reduxjs/redux-thunk)
+- after installing it, add it with applyMiddleware
+- execute in storeResult (actions.js) async code - after 2 seconds we want to store the result
+- to do this, you need return a function
+
