@@ -170,4 +170,8 @@ MID:
 - after installing it, add it with applyMiddleware
 - execute in storeResult (actions.js) async code - after 2 seconds we want to store the result
 - to do this, you need return a function
+***Restructuring Actions*** <br />
+4. Split up actions: 
+- create new files (counter.js and result.js in actions folder)
+- create one file exporting all action creators (index.js)
 
