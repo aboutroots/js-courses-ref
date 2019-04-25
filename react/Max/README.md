@@ -182,10 +182,12 @@ in the console:
 - do this with getState in action creators
 - without getState (pass all the data you need in async action creator by accepting it as an argument)
 
-***advanced reducers set ups*** -  Utility Functions
-6. Clean up reducer 
+***advanced reducers set ups*** 
+6. Clean up reducer (Utility Functions)
 - for that, create new file utility.js in store folder 
 - use created updateObject to update objects in result.js file and counter.js (incl updating an array in result.js)
+7. For the result.js file, outsource logic of DELETE_RESULT into its own function.
+
 
 
 
