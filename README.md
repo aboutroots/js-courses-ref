@@ -48,8 +48,6 @@ A complete log of my web development skills, learning, resources, highlights, in
 | ![Completed][Completed]     |  Feb'19     | [UDEMY - Functional Programming For Beginners With JavaScript]  | [James Moore]             |                |
 | ![Completed][Completed]     |  Jan'19     | [UDEMY - Advanced Javascript]                                   | [Asim Hussain]            |                |
 | ![Completed][Completed]     |  Jan'19     | [UDEMY - WordPress for Entrepreneurs Management of your own ...]| [Laurence Svekis]         |                |
-| ![Completed][Completed]     |  Jan'19     | [UDEMY - NOWY Kurs WordPress ZEROdoPRO ...]                     | [Dawid Polsakiewicz]      |                |
-| ![Completed][Completed]     |  Dec'18     | [UDEMY - MINI KURS „ZAPLANUJ BLOGA/STRONĘ” ]                    | [Dawid Polsakiewicz]      |                |
 | ![Completed][Completed]     |  Aug'18     | [UDEMY - Object-oriented Programming in JavaScript]             | [Mosh Hamedani]           |                |
 | ![Completed][Completed]     |  Oct'18     | [UDEMY - Web Design for Web Developers ...]                     | [Jonas Schmedtmann]       |                |
 | ![Completed][Completed]     |  Oct'18     | [UDEMY - The Complete JavaScript Course 2018 ...]               | [Jonas Schmedtmann]       |                |
@@ -58,7 +56,11 @@ A complete log of my web development skills, learning, resources, highlights, in
 | ![Completed][Completed]     |  May'18     | [UDEMY - JavaScript od Podstaw do Eksperta]                     | [Arkadiusz Włodarczyk]    |                |
 | ![Completed][Completed]     |  Mar'18     | [UDEMY - Kurs Tworzenia Stron WWW w HTML i CSS ...]             | [Arkadiusz Włodarczyk]    |                |
 | ![In Progress][In Progress] |             | [UDEMY - React - The Complete Guide (incl Hooks ...)]           | [Maximilian Schwarzmüller]|                |
-| ![Soon][Soon]               |             | [UDEMY - Advanced JavaScript Concepts]                          | [Andrei Neagoie]          |                |
+| ![Soon][Soon]               |             | [UDEMY - NodeJS - The Complete Guide (incl. MVC, REST APIs ...)]| [Maximilian Schwarzmüller]|                |
+| ![Soon][Soon]               |             | [UDEMY - MongoDB - The Complete Developer's Guide]              | [Maximilian Schwarzmüller]|                |
+| ![Soon][Soon]               |             | [UDEMY - Accelerated ES6 JavaScript Training]                   | [Maximilian Schwarzmüller]|                |
+| ![Soon][Soon]               |             | [UDEMY - Progressive Web Apps (PWA) - The Complete Guide]       | [Maximilian Schwarzmüller]|                |
+| ![Soon][Soon]               |             | [UDEMY - React Native - The Practical Guide]                    | [Maximilian Schwarzmüller]|                |
 
 
 [//]: # (Reference links to courses)
@@ -67,8 +69,6 @@ A complete log of my web development skills, learning, resources, highlights, in
 [UDEMY - Functional Programming For Beginners With JavaScript]: https://www.udemy.com/functional-programming-for-beginners-with-javascript/
 [UDEMY - Advanced Javascript]: https://www.udemy.com/javascript-advanced/
 [UDEMY - WordPress for Entrepreneurs Management of your own ...]: https://www.udemy.com/wordpress-for-business-management-of-your-own-website/
-[UDEMY - MINI KURS „ZAPLANUJ BLOGA/STRONĘ” ]: https://www.udemy.com/kurs-online-wordpress-pro/
-[UDEMY - NOWY Kurs WordPress ZEROdoPRO ...]: https://www.udemy.com/kurs-zaplanuj-bloga-strone/
 [UDEMY - Object-oriented Programming in JavaScript]: https://www.udemy.com/javascript-object-oriented-programming/                                
 [UDEMY - Web Design for Web Developers ...]: https://www.udemy.com/web-design-secrets/                      
 [UDEMY - The Complete JavaScript Course 2018 ...]: https://www.udemy.com/the-complete-javascript-course/
@@ -79,7 +79,11 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 [UDEMY - React - The Complete Guide (incl Hooks ...)]: https://www.udemy.com/react-the-complete-guide-incl-redux/
 
-[UDEMY - Advanced JavaScript Concepts]: https://www.udemy.com/advanced-javascript-concepts/ 
+[UDEMY - NodeJS - The Complete Guide (incl. MVC, REST APIs ...)]: https://www.udemy.com/course/nodejs-the-complete-guide/?couponCode=ACAD_W 
+[UDEMY - MongoDB - The Complete Developer's Guide]: https://www.udemy.com/mongodb-the-complete-developers-guide/?couponCode=ACAD_W 
+[UDEMY - Accelerated ES6 JavaScript Training]: https://www.udemy.com/es6-bootcamp-next-generation-javascript/?couponCode=ACAD_W
+[UDEMY - Progressive Web Apps (PWA) - The Complete Guide]: https://www.udemy.com/course/progressive-web-app-pwa-the-complete-guide/?couponCode=ACAD_W
+[UDEMY - React Native - The Practical Guide]: https://www.udemy.com/react-native-the-practical-guide/?couponCode=ACAD_W
 
 
 [//]: # (Reference links to tutors)   
