@@ -30,10 +30,10 @@ STARTER
 + [ ] Fetch Data on Update (without Creating Infinite Loops)
 + [ ] POST Data to the Server
 + [ ] Send a DELETE Request
-+ [ ] Handle Errors Locally (Blog.js)
-+ [ ] Add Interceptors to Execute Code Globally
-+ [ ] Set up a Default Global Configuration for Axios
-+ [ ] Create and Use Axios Instances
++ [ ] Handle Errors Locally (Blog.js) - update your UI (render something different to the screen)
++ [ ] Add Interceptors to Execute Code Globally - for both requests and responses
++ [ ] Set up a Default Global Configuration for Axios - cut out the initial part of the URL and add it to the initial common URL
++ [ ] Create and Use Axios Instances in the src folder called axios.js - place the base url there
 
 MID  ***load either all posts or a single post or the new post page***
 
