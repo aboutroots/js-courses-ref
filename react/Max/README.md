@@ -169,7 +169,8 @@ MID: ***asynchronous code*** <br />
  (https://github.com/reduxjs/redux-thunk)
 - after installing it, add it with applyMiddleware
 - execute in storeResult (actions.js) async code - after 2 seconds we want to store the result
-- to do this, you need return a function <br />
+- to do this, you need return a function 
+- ***EXPLANATION:*** (https://github.com/Had3r/Learning-Code/blob/master/react/Max/reduxMiddleware-mid-2/src/store/actions/result.js) <br />
 ***Restructuring Actions*** <br />
 4. Split up actions: 
 - create new files (counter.js and result.js in actions folder)
