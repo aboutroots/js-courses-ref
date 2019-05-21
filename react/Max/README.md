@@ -17,6 +17,7 @@
 * [Redux assignment](#-redux-assignment)
 * [Redux assignment-2](#-redux-assignment-2)
 * [Redux Middleware](#-redux-middleware)
+* [Testing](#-testing)
 
 ***
 
@@ -190,6 +191,21 @@ in the console:
 - use created updateObject to update objects in result.js file and counter.js (incl updating an array in result.js)
 7. For the result.js file, outsource logic of DELETE_RESULT into its own function.
 
+## 🚀 Testing
 
+1. Install Enzyme (with two additional packages) and Jest.
+2. Start with writing a test for a functional component, for example - a navigationItems.js component.
+   Create a testing file for this component.
+3. By default, component should render ***two*** navigation item, if we are not authenticated. That is what you should to test.
+	<br />
+	<br />
+	<br />
+HINT: 
+- use the describe and it functions
+- then you need to configure enzyme and connect it to your react version.
+- first you need Adapter - default export from 'enzyme-adapter-react-16'
+- then import configure function from enzyme (named export). With these two imports, you can now execute configure and pass a javascript object to configure.
+- Now you should render a navigation items component and then look into it. Use the shallow method to render. Then look into the component with expect method from Jest
+(with find and toHaveLength methods)
 
 
