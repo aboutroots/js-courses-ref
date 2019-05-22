@@ -207,5 +207,14 @@ HINT:
 - then import configure function from enzyme (named export). With these two imports, you can now execute configure and pass a javascript object to configure.
 - Now you should render a navigation items component and then look into it. Use the shallow method to render. Then look into the component with expect method from Jest
 (with find and toHaveLength methods)
+	<br />
+	<br />
+	<br />
+4. Test the opposite. Check if you have three navigationItem when you have authorization
+(with helper method called beforeEach - place a general setup here).
+5. Perform the third test - find out if you are authenticated (true or false). <br />
+
+***EXPLANATION:***
+(https://github.com/Had3r/Learning-Code/blob/master/react/Max/testing-finish/src/components/Navigation/NavigationItems/NavigationItems.test.js)
 
 
