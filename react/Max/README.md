@@ -224,4 +224,7 @@ HINT:
 (https://github.com/Had3r/Learning-Code/blob/master/react/Max/testing-finish/src/containers/BurgerBuilder/BurgerBuilder.test.js)
 
 8. Test Redux - auth.js.
-9. Let's test that you get the right initial state if we actually pass an invalid action type to it.
+9. Let's test that you get the right initial state if we actually pass an invalid action type to it. <br />
+
+***EXPLANATION:***
+(https://github.com/Had3r/Learning-Code/blob/master/react/Max/testing-finish/src/store/reducers/auth.test.js)
