@@ -217,4 +217,5 @@ HINT:
 ***EXPLANATION:***
 (https://github.com/Had3r/Learning-Code/blob/master/react/Max/testing-finish/src/components/Navigation/NavigationItems/NavigationItems.test.js)
 
-
+6. Test the container - BurgerBuilder.js.
+7. Check if you actually have build controls (<BuildControls />), if the ingredients are nonexistent.
