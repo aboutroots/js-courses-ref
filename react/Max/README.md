@@ -18,6 +18,7 @@
 * [Redux assignment-2](#-redux-assignment-2)
 * [Redux Middleware](#-redux-middleware)
 * [Testing](#-testing)
+* [Animations](#-animations)
 
 ***
 
@@ -228,3 +229,29 @@ HINT:
 
 ***EXPLANATION:***
 (https://github.com/Had3r/Learning-Code/blob/master/react/Max/testing-finish/src/store/reducers/auth.test.js)
+
+## 🚀 Animations
+
+1. Make sure that you have a way of showing and hiding the modal. To show or hide the modal, 
+use CSS transitions - let's say you want to have it flying from the top and also change the opacity
+2. Add some animations. Use your state to show or hide the backdrop and modal elements (ternary expression).
+3. Add a button that shows and removes a red square. Do it with ReactTransitionGroup.
+
+MID:
+
+4. Use this transition component on the modal to animate this.
+
+MID-2:
+
+5. Move the transition component inside the modal.
+6. Set different timings for entering and leaving.
+7. Let's say you want to execute certain code when the state of the animation finishes 
+(you can add six different events to transition component)
+
+MID-3:
+
+8. Let's say, want to have a couple of predefined css classes for the different animation states 
+and you want to make sure they get attached depending on the state of the animation. Use ***CSSTransition*** component for this.
+9. Add animations to the list of items. Use an additional component which you can import. <br />
+
+HINT: https://reactcommunity.org/react-transition-group/
