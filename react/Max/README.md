@@ -234,7 +234,7 @@ HINT:
 
 1. Make sure that you have a way of showing and hiding the modal. To show or hide the modal, 
 use CSS transitions - let's say you want to have it flying from the top and also change the opacity
-2. Add some animations. Use your state to show or hide the backdrop and modal elements (ternary expression).
+2. Add some animations. Use your state to show or hide the backdrop and modal elements (to remove elements completely from the DOM - ternary expression).
 3. Add a button that shows and removes a red square. Do it with ReactTransitionGroup.
 
 MID:
