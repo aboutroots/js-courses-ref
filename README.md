@@ -9,28 +9,20 @@ A complete log of my web development skills, learning, resources, highlights, in
 |               Skill              | 1<br>Introduction | 2<br>Basics   | 3<br>Good     | 4<br>Pretty Good | 5<br>Confident | 6<br>Awesome    |
 |:--------------------------------:|:-----------------:|:-------------:|:-------------:|:----------------:|:--------------:|:---------------:|
 |**HTML5**                         | ![done][done]     | ![done][done] | ![done][done] |                  |                |                 |
-|**CSS3**                          | ![done][done]     | ![done][done] | ![done][done] |                  |                |                 |
+|**CSS3 & SASS**                   | ![done][done]     | ![done][done] | ![done][done] |                  |                |                 |
+|**BEM**                           | ![done][done]     | ![done][done] | ![done][done] |                  |                |                 |
 |**JavaScript**                    | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Website Building**              | ![done][done]     | ![done][done] | ![done][done] |                  |                |                 |
-|**Wire Frame**                    | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Responsive Design**             | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Mobile First**                  | ![done][done]     |               |               |                  |                |                 |
-|**Progressive Enhancement**       |                   |               |               |                  |                |                 |
+|**Responsive Design**             | ![done][done]     | ![done][done] | ![done][done] |                  |                |                 |
+|**Mobile First**                  | ![done][done]     | ![done][done] |               |                  |                |                 |
 |**CSS Grid & Flex-box**           | ![done][done]     | ![done][done] |               |                  |                |                 |
 |**Bootstrap**                     |                   |               |               |                  |                |                 |
 |**jQuery**                        |                   |               |               |                  |                |                 |
-|**Publishing Website**            | ![done][done]     | ![done][done] | ![done][done] |                  |                |                 |
-|**GitHub**                        | ![done][done]     | ![done][done] |               |                  |                |                 |
-|**Git/Git bash**                  | ![done][done]     |               |               |                  |                |                 |
-|**Command Line**                  | ![done][done]     |               |               |                  |                |                 |
-|**Markdown**                      | ![done][done]     | ![done][done] | ![done][done] |                  |                |                 |
-|**Open Source Contribution**      |                   |               |               |                  |                |                 |
-|**Node.js**                       |                   |               |               |                  |                |                 |
+|**Git**                           | ![done][done]     | ![done][done] |               |                  |                |                 |
 |**React**                         | ![done][done]     |               |               |                  |                |                 |
-|**Task Runners - Gulp/Grunt**     |                   |               |               |                  |                |                 |
-|**NPM**                           | ![done][done]     |               |               |                  |                |                 |
-|**AJAX**                          | ![done][done]     |               |               |                  |                |                 |
-|**JSON**                          | ![done][done]     |               |               |                  |                |
+|**NPM**                           | ![done][done]     | ![done][done] |               |                  |                |                 |
+|**Node.js**                       |                   |               |               |                  |                |                 |
+|**Webpack**                       | ![done][done]     | ![done][done] |               |                  |                |                 |
+|**Enzyme & Jest**                 | ![done][done]     |               |               |                  |                |                 |
 ----
 
 ## My Path - Completed ![Completed][Completed] - In Progress ![In Progress][In Progress] - Soon ![Soon][Soon]
