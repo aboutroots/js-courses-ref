@@ -30,13 +30,21 @@ function App() {
   const [count, setCount] =  useState(0);
 
   // const clickHandler = () => setCount(count + 1);
-  const clickHandler = () => setCount((prevCount) => {
+  const handleIncrease = () => setCount((prevCount) => {
     return prevCount + 1;
   });
 
+  const handleDecrease  = () => setCount((prevCount) => {
+    return prevCount - 1;
+  });
+
+  const handleReset = () => setCount(0);
+
   return (
     <div>
-      <button onClick={clickHandler}>Increase</button>
+      <button onClick={handleIncrease}>Increase</button>
+      <button onClick={handleDecrease}>Decrease</button>
+      <button onClick={handleReset}>Reset</button>
       <h1>{count}</h1>
     </div>
   )

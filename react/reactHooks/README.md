@@ -28,7 +28,8 @@ You want to have an activated button or an inactivated button. And when the butt
 
 START:
 
-Write an app where you're going to use a button to increment a numeric count.
-Begin with a class based react component and then refactor that to a component with hook. <br />
+1. Write an app where you're going to use a button to increment a numeric count.
+Begin with a class based react component and then refactor that to a component with hook.
+2.  Add two more buttons to your interface. The first button should have the text decrease and it should decrease the count by one. Another button with the text reset that is going to reset the count. <br />
 
-***SOLUTION:*** 
+***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/useState-2-end/src/App.js
