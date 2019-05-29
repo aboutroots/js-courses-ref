@@ -12,6 +12,7 @@
 
 * [useState](#-useState)
 * [useState-2-end](#-useState-2-end)
+* [useState-3-end](#-useState-3-end)
 
 
 ***
@@ -44,4 +45,4 @@ the country and display it on the page.
 2. Use a plain javascript object to store the state.
 3. Uther solution: invoke useState multiple times. <br />
 
-***SOLUTION:*** 
+***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/useState-3-end/src/App.js
