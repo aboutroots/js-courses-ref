@@ -14,6 +14,7 @@
 * [useState-2-end](#-useState-2-end)
 * [useState-3-end](#-useState-3-end)
 * [useEffect](#-useEffect)
+* [useEffect-mid](#-useEffect-mid)
 
 
 ***
@@ -56,5 +57,14 @@ START:
 2. Output in the console the value of count state variable from teardown function.
 3. Make the counter component visible and invisible (to simulate the process of mounting and unmounting. <br />
 ***Consider when exactly does React clean up an effect?*** <br />
+
+***SOLUTION:*** 
+
+## 🚀 useEffect-mid
+
+START:
+
+4. Add a button that changes the color of the number.
+5. Have your side effect to run only when a specific piece of state changes.
 
 ***SOLUTION:*** 
