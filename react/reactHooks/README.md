@@ -13,6 +13,7 @@
 * [useState](#-useState)
 * [useState-2-end](#-useState-2-end)
 * [useState-3-end](#-useState-3-end)
+* [useEffect](#-useEffect)
 
 
 ***
@@ -46,3 +47,14 @@ the country and display it on the page.
 3. Uther solution: invoke useState multiple times. <br />
 
 ***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/useState-3-end/src/App.js
+
+## 🚀 useEffect 
+
+START:
+
+1. Output in the console the value of count state variable from the useEffect function body.
+2. Output in the console the value of count state variable from teardown function.
+3. Make the counter component visible and invisible (to simulate the process of mounting and unmounting. <br />
+***Consider when exactly does React clean up an effect?*** <br />
+
+***SOLUTION:*** 
