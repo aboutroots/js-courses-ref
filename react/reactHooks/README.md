@@ -77,4 +77,4 @@ START:
 (so as the user presses characters they're going to see their text appear on the screen )
 - you have to remember to tear down everything that you set up, so as not to broke the application <br />
 
-***SOLUTION:*** 
+***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/simpleApp-end/src/App.js
