@@ -15,6 +15,7 @@
 * [useState-3-end](#-useState-3-end)
 * [useEffect](#-useEffect)
 * [useEffect-mid](#-useEffect-mid)
+* [simpleApp](#-simpleApp)
 
 
 ***
@@ -58,13 +59,22 @@ START:
 3. Make the counter component visible and invisible (to simulate the process of mounting and unmounting. <br />
 ***Consider when exactly does React clean up an effect?*** <br />
 
-***SOLUTION:*** 
+***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/useEffect-mid/src/App.js
 
 ## 🚀 useEffect-mid
 
 START:
 
 4. Add a button that changes the color of the number.
-5. Have your side effect to run only when a specific piece of state changes.
+5. Have your side effect to run only when a specific piece of state changes. <br />
+
+***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/useEffect-end/src/App.js
+
+## 🚀 simpleApp
+
+- Build an app where the user can type any lowercase letter or a space with their keyboard. 
+- Then you want to take all the letters the user has type and output them to the screen in a fancy blog quote.
+(so as the user presses characters they're going to see their text appear on the screen )
+- you have to remember to tear down everything that you set up, so as not to broke the application <br />
 
 ***SOLUTION:*** 
