@@ -78,3 +78,18 @@ START:
 - you have to remember to tear down everything that you set up, so as not to broke the application <br />
 
 ***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/simpleApp-end/src/App.js
+
+## 🚀 useContext
+
+START:
+
+1. Create nested component structure so you can demonstrate how with context
+you can pass information from the very top of the tree an app to button at the very bottom of the tree.
+- with class components
+
+MID:
+
+2. Refactor the work that you created into functional hooks based components. 
+Introduce the useContext hook for creating a consumer to receive your context. <br />
+
+***SOLUTION:*** 
