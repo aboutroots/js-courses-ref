@@ -17,6 +17,7 @@
 * [useEffect-mid](#-useEffect-mid)
 * [simpleApp](#-simpleApp)
 * [useContext](#-useContext)
+* [customHooks](#-customHooks)
 
 
 ***
@@ -105,3 +106,12 @@ MID:
 Introduce the useContext hook for creating a consumer to receive your context. <br />
 
 ***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/useContext-end/src/App.js
+
+## 🚀 customHooks
+
+1. Extract this counter functionality to live outside of your app component.
+2. Let's say you want the component to specify starting value of the count.
+3. Render two counters - both relying on the use counter state hook
+4. Let's say that you want each of your display components to start off with a custom count. <br />
+
+***SOLUTION:***
