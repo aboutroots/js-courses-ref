@@ -122,4 +122,4 @@ Introduce the useContext hook for creating a consumer to receive your context. <
 Move all of the logic for keeping track of each input and its value to a separate user input custom hook.
 (fill out useInput) <br />
 
-***SOLUTION:*** 
+***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/customHook2-end/src/App.js
