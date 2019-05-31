@@ -39,7 +39,7 @@ function App() {
   return (
     <div>
       <Display start={10} /> {/** Te dwa komponenty są całkowicie niezależne, ich wartości są rozdzielone. Oba mają dostęp do własnej zmiennej stanu. */}
-      <Display start={20} />
+      <Display start={20} /> {/** Każdy komponent śledzi swój własny, odrębny licznik (count) */}
     </div>
   )
 }

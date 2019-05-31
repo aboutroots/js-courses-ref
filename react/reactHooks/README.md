@@ -18,6 +18,7 @@
 * [simpleApp](#-simpleApp)
 * [useContext](#-useContext)
 * [customHooks](#-customHooks)
+* [customHooks2](#-customHooks2)
 
 
 ***
@@ -114,4 +115,11 @@ Introduce the useContext hook for creating a consumer to receive your context. <
 3. Render two counters - both relying on the use counter state hook
 4. Let's say that you want each of your display components to start off with a custom count. <br />
 
-***SOLUTION:***
+***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/customHook-end/src/App.js
+
+## 🚀 customHooks2
+
+Move all of the logic for keeping track of each input and its value to a separate user input custom hook.
+(fill out useInput) <br />
+
+***SOLUTION:*** 
