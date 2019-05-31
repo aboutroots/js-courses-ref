@@ -73,12 +73,19 @@ START:
 
 ## 🚀 simpleApp
 
+START:
+
 - Build an app where the user can type any lowercase letter or a space with their keyboard. 
 - Then you want to take all the letters the user has type and output them to the screen in a fancy blog quote.
 (so as the user presses characters they're going to see their text appear on the screen )
 - you have to remember to tear down everything that you set up, so as not to broke the application <br />
 
-***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/simpleApp-end/src/App.js
+MID: (custom hook)
+
+- Let's say you wanted to build a second react component that has the exact same typing functionality
+but a different UI. For example you want an H2 tag and a regular div instead of a blockquote. <br />
+
+***SOLUTION:*** 
 
 ## 🚀 useContext
 
