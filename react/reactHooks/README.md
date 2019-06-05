@@ -7,7 +7,7 @@
 ***
 
 <p align="center">
-🎉List of tasks to be done below. Everything comes from the courses.🎉
+🎉A set of very simple tasks to do, to learn how hooks work.🎉
 </p>
 
 * [useState](#-useState)
@@ -19,6 +19,7 @@
 * [useContext](#-useContext)
 * [customHooks](#-customHooks)
 * [customHooks2](#-customHooks2)
+* [todoApp](#-todoApp)
 
 
 ***
@@ -123,3 +124,45 @@ Move all of the logic for keeping track of each input and its value to a separat
 (fill out useInput) <br />
 
 ***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/customHook2-end/src/App.js
+
+## 🚀 todo-App
+
+START:
+
+1. Create Todo App with React Hooks.
+- add the ability to add items
+- save items on the server (whenever you add a new one)
+- then fetch this data (when component gets loaded) and display it
+
+MID:
+
+2. Fake a very simple multi-page, single page application.
+- start by adding two new components - Header.js and Auth.js
+- the Header contains two buttons - todo lists and auth
+- Auth contains log in button
+- useState to switch between the todo and the auth state to decide which of the two components to show
+3. When you press the button in Auth.js, set the state to being logged in and you want to set the state through the context API.
+- for this, create a new file, auth-context.js in the src folder
+- output your auth status: let's say you only want to unlock the to-do list button (in Header.js) if you are authenticated
+
+MID-2: (before the problem with closure)
+MID-3: (after)
+
+4. Add features to delete the item using useReducer Hook
+- start with creating a reducer
+- now register this reducer and use it correctly
+- then to delete items, You want to make it clickable (remove it on the back-end too)
+5. If you use a reducer and dispatch, simplify submittedTodo logic.
+
+MID-4: (useRef hook)
+
+6. Let's say for input, you don't want to get the value and set the value through todoName,
+but use a reference.
+
+MID-5: (customHook, useMemo)
+
+7. Outsource Todo.js into a new List.js file 
+- add validation on an input (whether the input is invalid or not - introduce useState for this)
+- create your own hook that deals with input validation (for this create a new folder named hooks with forms.js)
+- in form.js manage the state and validity of form input
+8. Make sure that you don't unnecessarily re-render list.
