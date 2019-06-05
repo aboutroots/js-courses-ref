@@ -90,10 +90,10 @@ A complete log of my web development skills, learning, resources, highlights, in
 [Laurence Svekis]: https://www.udemy.com/user/lars51/
 [Dawid Polsakiewicz]: https://www.udemy.com/user/dawid-polsakiewicz/
 [Mosh Hamedani]: https://programmingwithmosh.com/about/
-[Jonas Schmedtmann]: https://codingheroes.io/
+[Jonas Schmedtmann]: https://www.udemy.com/user/jonasschmedtmann/
 [Alan Simpson]: https://www.udemy.com/user/alan-simpson-8/
 [Arkadiusz Włodarczyk]: https://www.udemy.com/user/arkadiuszwodarczyk/
-[Maximilian Schwarzmüller]: https://www.academind.com/
+[Maximilian Schwarzmüller]: https://www.udemy.com/user/maximilian-schwarzmuller/
 [Andrei Neagoie]: https://www.udemy.com/user/andrei-neagoie/
 
 [//]: # (Reference links to review)
