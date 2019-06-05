@@ -35,7 +35,9 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 |            Status           |  Completed  | Course                                                          | Tutor                     | My Review      |
 |:---------------------------:|:---------   |:----------------------------------------------------------------|:-------------------------:|:--------------:|
-| ![Completed][Completed]     |  Oct'19     | [EGGHEAD - Getting Started with Redux]                          | [Dan Abramov]             |                |
+| ![Completed][Completed]     |  Jun'19     | [UDEMY - Getting Started with React Hooks]                      | [Boris Paskhaver]         |                
+| ![Completed][Completed]     |  Jun'19     | [UDEMY - React - The Complete Guide (incl Hooks ...)]           | [Maximilian Schwarzmüller]|                
+| ![Completed][Completed]     |  May'19     | [EGGHEAD - Getting Started with Redux]                          | [Dan Abramov]             |                |
 | ![Completed][Completed]     |  Mar'19     | [EDUWEB - Kurs React od Podstaw]                                | [Adam Romański]           |                |
 | ![Completed][Completed]     |  Feb'19     | [UDEMY - Functional Programming For Beginners With JavaScript]  | [James Moore]             |                |
 | ![Completed][Completed]     |  Jan'19     | [UDEMY - Advanced Javascript]                                   | [Asim Hussain]            |                |
@@ -47,7 +49,6 @@ A complete log of my web development skills, learning, resources, highlights, in
 | ![Completed][Completed]     |  Aug'18     | [UDEMY - Advanced CSS and SASS: Flexbox, Grid, Animations]      | [Jonas Schmedtmann]       |                |
 | ![Completed][Completed]     |  May'18     | [UDEMY - JavaScript od Podstaw do Eksperta]                     | [Arkadiusz Włodarczyk]    |                |
 | ![Completed][Completed]     |  Mar'18     | [UDEMY - Kurs Tworzenia Stron WWW w HTML i CSS ...]             | [Arkadiusz Włodarczyk]    |                |
-| ![In Progress][In Progress] |             | [UDEMY - React - The Complete Guide (incl Hooks ...)]           | [Maximilian Schwarzmüller]|                |
 | ![Soon][Soon]               |             | [UDEMY - NodeJS - The Complete Guide (incl. MVC, REST APIs ...)]| [Maximilian Schwarzmüller]|                |
 | ![Soon][Soon]               |             | [UDEMY - MongoDB - The Complete Developer's Guide]              | [Maximilian Schwarzmüller]|                |
 | ![Soon][Soon]               |             | [UDEMY - Accelerated ES6 JavaScript Training]                   | [Maximilian Schwarzmüller]|                |
@@ -56,6 +57,8 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 
 [//]: # (Reference links to courses)
+[UDEMY - Getting Started with React Hooks]: https://www.udemy.com/getting-started-with-react-hooks/
+[UDEMY - React - The Complete Guide (incl Hooks ...)]: https://www.udemy.com/react-the-complete-guide-incl-redux/
 [EGGHEAD - Getting Started with Redux]: https://egghead.io/courses/getting-started-with-redux
 [EDUWEB - Kurs React od Podstaw]: https://eduweb.pl/kursy/javascript/react-od-podstaw.html
 [UDEMY - Functional Programming For Beginners With JavaScript]: https://www.udemy.com/functional-programming-for-beginners-with-javascript/
@@ -69,7 +72,6 @@ A complete log of my web development skills, learning, resources, highlights, in
 [UDEMY - JavaScript od Podstaw do Eksperta]: https://www.udemy.com/javascript-od-podstaw-do-eksperta/
 [UDEMY - Kurs Tworzenia Stron WWW w HTML i CSS ...]: https://www.udemy.com/kurs-tworzenia-stron-www-w-html-i-css-od-podstaw-do-eksperta/
 
-[UDEMY - React - The Complete Guide (incl Hooks ...)]: https://www.udemy.com/react-the-complete-guide-incl-redux/
 
 [UDEMY - NodeJS - The Complete Guide (incl. MVC, REST APIs ...)]: https://www.udemy.com/course/nodejs-the-complete-guide/?couponCode=ACAD_W 
 [UDEMY - MongoDB - The Complete Developer's Guide]: https://www.udemy.com/mongodb-the-complete-developers-guide/?couponCode=ACAD_W 
@@ -80,6 +82,7 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 [//]: # (Reference links to tutors)   
 
+[Boris Paskhaver]: https://www.udemy.com/user/borispaskhaver/
 [Dan Abramov]: https://egghead.io/instructors/dan-abramov
 [Adam Romański]: https://eduweb.pl/autor/adam-romanski
 [James Moore]: https://www.udemy.com/user/knowthen/
