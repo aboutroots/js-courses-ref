@@ -125,7 +125,7 @@ Move all of the logic for keeping track of each input and its value to a separat
 
 ***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/customHook2-end/src/App.js
 
-## 🚀 todo-App
+## 🚀 todoApp
 
 START:
 
@@ -133,6 +133,8 @@ START:
 - add the ability to add items
 - save items on the server (whenever you add a new one)
 - then fetch this data (when component gets loaded) and display it
+
+***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/todo-mid/src/components/Todo.js
 
 MID:
 
@@ -145,8 +147,13 @@ MID:
 - for this, create a new file, auth-context.js in the src folder
 - output your auth status: let's say you only want to unlock the to-do list button (in Header.js) if you are authenticated
 
-MID-2: (before the problem with closure)
-MID-3: (after)
+MID-2: (before the problem with closure) <br />
+
+***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/todo-mid-2/src/App.js
+
+MID-3: (after) <br />
+
+***SOLUTION:*** https://github.com/Had3r/Learning-Code/blob/master/react/reactHooks/todo-mid-3/src/components/Todo.js
 
 4. Add features to delete the item using useReducer Hook
 - start with creating a reducer
@@ -154,12 +161,16 @@ MID-3: (after)
 - then to delete items, You want to make it clickable (remove it on the back-end too)
 5. If you use a reducer and dispatch, simplify submittedTodo logic.
 
-MID-4: (useRef hook)
+MID-4: (useRef hook) <br />
+
+***SOLUTION:***
 
 6. Let's say for input, you don't want to get the value and set the value through todoName,
 but use a reference.
 
-MID-5: (customHook, useMemo)
+MID-5: (customHook, useMemo) <br />
+
+***SOLUTION:***
 
 7. Outsource Todo.js into a new List.js file 
 - add validation on an input (whether the input is invalid or not - introduce useState for this)
