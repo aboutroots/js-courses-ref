@@ -103,7 +103,7 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 I'm currently interested in/excited about:
 
-- Gatsby + Graphql
+- React & Redux
 - JavaScript
 
 ---
