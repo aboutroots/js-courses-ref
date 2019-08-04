@@ -33,31 +33,32 @@ A complete log of my web development skills, learning, resources, highlights, in
 [in progress]: https://user-images.githubusercontent.com/10099150/48672235-329bea00-eb2b-11e8-8af1-908930f14f0e.png "In Progress"
 [soon]: https://user-images.githubusercontent.com/10099150/48672298-1b113100-eb2c-11e8-8d25-b40b13d64637.png "Soon"
 
-|         Status          | Completed | Course                                                           |           Tutor            | My Review |
-| :---------------------: | :-------- | :--------------------------------------------------------------- | :------------------------: | :-------: |
-| ![Completed][completed] | Aug'19    | [UDEMY - Gatsby Tutorial]                                        |       [John Smilga]        |
-| ![Completed][completed] | Jun'19    | [UDEMY - Getting Started with React Hooks]                       |     [Boris Paskhaver]      |
-| ![Completed][completed] | Jun'19    | [UDEMY - React - The Complete Guide (incl Hooks ...)]            | [Maximilian Schwarzmüller] |
-| ![Completed][completed] | May'19    | [EGGHEAD - Getting Started with Redux]                           |       [Dan Abramov]        |           |
-| ![Completed][completed] | Mar'19    | [EDUWEB - Kurs React od Podstaw]                                 |      [Adam Romański]       |           |
-| ![Completed][completed] | Feb'19    | [UDEMY - Functional Programming For Beginners With JavaScript]   |       [James Moore]        |           |
-| ![Completed][completed] | Jan'19    | [UDEMY - Advanced Javascript]                                    |       [Asim Hussain]       |           |
-| ![Completed][completed] | Jan'19    | [UDEMY - WordPress for Entrepreneurs Management of your own ...] |     [Laurence Svekis]      |           |
-| ![Completed][completed] | Aug'18    | [UDEMY - Object-oriented Programming in JavaScript]              |      [Mosh Hamedani]       |           |
-| ![Completed][completed] | Oct'18    | [UDEMY - Web Design for Web Developers ...]                      |    [Jonas Schmedtmann]     |           |
-| ![Completed][completed] | Oct'18    | [UDEMY - The Complete JavaScript Course 2018 ...]                |    [Jonas Schmedtmann]     |           |
-| ![Completed][completed] | Aug'18    | [UDEMY - Git Beginner in VS Code]                                |       [Alan Simpson]       |           |
-| ![Completed][completed] | Aug'18    | [UDEMY - Advanced CSS and SASS: Flexbox, Grid, Animations]       |    [Jonas Schmedtmann]     |           |
-| ![Completed][completed] | May'18    | [UDEMY - JavaScript od Podstaw do Eksperta]                      |   [Arkadiusz Włodarczyk]   |           |
-| ![Completed][completed] | Mar'18    | [UDEMY - Kurs Tworzenia Stron WWW w HTML i CSS ...]              |   [Arkadiusz Włodarczyk]   |           |
-|      ![Soon][soon]      |           | [UDEMY - NodeJS - The Complete Guide (incl. MVC, REST APIs ...)] | [Maximilian Schwarzmüller] |           |
-|      ![Soon][soon]      |           | [UDEMY - MongoDB - The Complete Developer's Guide]               | [Maximilian Schwarzmüller] |           |
-|      ![Soon][soon]      |           | [UDEMY - Accelerated ES6 JavaScript Training]                    | [Maximilian Schwarzmüller] |           |
-|      ![Soon][soon]      |           | [UDEMY - Progressive Web Apps (PWA) - The Complete Guide]        | [Maximilian Schwarzmüller] |           |
-|      ![Soon][soon]      |           | [UDEMY - React Native - The Practical Guide]                     | [Maximilian Schwarzmüller] |           |
+|           Status            | Completed | Course                                                           |           Tutor            | My Review |
+| :-------------------------: | :-------- | :--------------------------------------------------------------- | :------------------------: | :-------: |
+| ![In Progress][in progress] |           | [FRONTENDMASTERS - Learning Paths]                               |                            |
+|   ![Completed][completed]   | Aug'19    | [UDEMY - Gatsby Tutorial]                                        |       [John Smilga]        |
+|   ![Completed][completed]   | Jun'19    | [UDEMY - Getting Started with React Hooks]                       |     [Boris Paskhaver]      |
+|   ![Completed][completed]   | Jun'19    | [UDEMY - React - The Complete Guide (incl Hooks ...)]            | [Maximilian Schwarzmüller] |
+|   ![Completed][completed]   | May'19    | [EGGHEAD - Getting Started with Redux]                           |       [Dan Abramov]        |           |
+|   ![Completed][completed]   | Mar'19    | [EDUWEB - Kurs React od Podstaw]                                 |      [Adam Romański]       |           |
+|   ![Completed][completed]   | Feb'19    | [UDEMY - Functional Programming For Beginners With JavaScript]   |       [James Moore]        |           |
+|   ![Completed][completed]   | Jan'19    | [UDEMY - Advanced Javascript]                                    |       [Asim Hussain]       |           |
+|   ![Completed][completed]   | Jan'19    | [UDEMY - WordPress for Entrepreneurs Management of your own ...] |     [Laurence Svekis]      |           |
+|   ![Completed][completed]   | Aug'18    | [UDEMY - Object-oriented Programming in JavaScript]              |      [Mosh Hamedani]       |           |
+|   ![Completed][completed]   | Oct'18    | [UDEMY - Web Design for Web Developers ...]                      |    [Jonas Schmedtmann]     |           |
+|   ![Completed][completed]   | Oct'18    | [UDEMY - The Complete JavaScript Course 2018 ...]                |    [Jonas Schmedtmann]     |           |
+|   ![Completed][completed]   | Aug'18    | [UDEMY - Git Beginner in VS Code]                                |       [Alan Simpson]       |           |
+|   ![Completed][completed]   | Aug'18    | [UDEMY - Advanced CSS and SASS: Flexbox, Grid, Animations]       |    [Jonas Schmedtmann]     |           |
+|   ![Completed][completed]   | May'18    | [UDEMY - JavaScript od Podstaw do Eksperta]                      |   [Arkadiusz Włodarczyk]   |           |
+|   ![Completed][completed]   | Mar'18    | [UDEMY - Kurs Tworzenia Stron WWW w HTML i CSS ...]              |   [Arkadiusz Włodarczyk]   |           |
+|        ![Soon][soon]        |           | [UDEMY - NodeJS - The Complete Guide (incl. MVC, REST APIs ...)] | [Maximilian Schwarzmüller] |           |
+|        ![Soon][soon]        |           | [UDEMY - MongoDB - The Complete Developer's Guide]               | [Maximilian Schwarzmüller] |           |
+|        ![Soon][soon]        |           | [UDEMY - Accelerated ES6 JavaScript Training]                    | [Maximilian Schwarzmüller] |           |
+|        ![Soon][soon]        |           | [UDEMY - Progressive Web Apps (PWA) - The Complete Guide]        | [Maximilian Schwarzmüller] |           |
+|        ![Soon][soon]        |           | [UDEMY - React Native - The Practical Guide]                     | [Maximilian Schwarzmüller] |           |
 
 [//]: # "Reference links to courses"
-[udemy - gatsby tutorial]: https://www.udemy.com/gatsby-tutorial-and-projects-course/
+[frontendmasters - learning paths: https://www.udemy.com/gatsby-tutorial-and-projects-course/ [udemy - gatsby tutorial]: https://www.udemy.com/gatsby-tutorial-and-projects-course/
 [udemy - getting started with react hooks]: https://www.udemy.com/getting-started-with-react-hooks/
 [udemy - react - the complete guide (incl hooks ...)]: https://www.udemy.com/react-the-complete-guide-incl-redux/
 [egghead - getting started with redux]: https://egghead.io/courses/getting-started-with-redux
@@ -102,7 +103,7 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 I'm currently interested in/excited about:
 
-- React & Redux
+- Gatsby + Graphql
 - JavaScript
 
 ---
