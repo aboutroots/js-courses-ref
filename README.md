@@ -58,6 +58,7 @@ A complete log of my web development skills, learning, resources, highlights, in
 |        ![Soon][soon]        |           | [UDEMY - React Native - The Practical Guide]                     | [Maximilian Schwarzmüller] |           |
 
 [//]: # "Reference links to courses"
+[frontendmasters - learning path]: https://frontendmasters.com/
 [udemy - gatsby tutorial]: https://www.udemy.com/gatsby-tutorial-and-projects-course/
 [udemy - getting started with react hooks]: https://www.udemy.com/getting-started-with-react-hooks/
 [udemy - react - the complete guide (incl hooks ...)]: https://www.udemy.com/react-the-complete-guide-incl-redux/
