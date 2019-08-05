@@ -51,11 +51,8 @@ A complete log of my web development skills, learning, resources, highlights, in
 |   ![Completed][completed]   | May'18    | [UDEMY - JavaScript od Podstaw do Eksperta]                      |   [Arkadiusz Włodarczyk]   |           |
 |   ![Completed][completed]   | Mar'18    | [UDEMY - Kurs Tworzenia Stron WWW w HTML i CSS ...]              |   [Arkadiusz Włodarczyk]   |           |
 | ![In Progress][in progress] |           | [FRONTENDMASTERS - Learning Paths]                               |                            |           |
-|        ![Soon][soon]        |           | [UDEMY - NodeJS - The Complete Guide (incl. MVC, REST APIs ...)] | [Maximilian Schwarzmüller] |           |
-|        ![Soon][soon]        |           | [UDEMY - MongoDB - The Complete Developer's Guide]               | [Maximilian Schwarzmüller] |           |
-|        ![Soon][soon]        |           | [UDEMY - Accelerated ES6 JavaScript Training]                    | [Maximilian Schwarzmüller] |           |
-|        ![Soon][soon]        |           | [UDEMY - Progressive Web Apps (PWA) - The Complete Guide]        | [Maximilian Schwarzmüller] |           |
-|        ![Soon][soon]        |           | [UDEMY - React Native - The Practical Guide]                     | [Maximilian Schwarzmüller] |           |
+|        ![Soon][soon]        |           | [UDEMY - Node.js, Express, MongoDB & More ...]                   | [Jonas Schmedtmann]        |           |
+
 
 [//]: # "Reference links to courses"
 [frontendmasters - learning paths]: https://frontendmasters.com/
@@ -74,11 +71,8 @@ A complete log of my web development skills, learning, resources, highlights, in
 [udemy - advanced css and sass: flexbox, grid, animations]: https://www.udemy.com/advanced-css-and-sass/
 [udemy - javascript od podstaw do eksperta]: https://www.udemy.com/javascript-od-podstaw-do-eksperta/
 [udemy - kurs tworzenia stron www w html i css ...]: https://www.udemy.com/kurs-tworzenia-stron-www-w-html-i-css-od-podstaw-do-eksperta/
-[udemy - nodejs - the complete guide (incl. mvc, rest apis ...)]: https://www.udemy.com/course/nodejs-the-complete-guide/?couponCode=ACAD_W
-[udemy - mongodb - the complete developer's guide]: https://www.udemy.com/mongodb-the-complete-developers-guide/?couponCode=ACAD_W
-[udemy - accelerated es6 javascript training]: https://www.udemy.com/es6-bootcamp-next-generation-javascript/?couponCode=ACAD_W
-[udemy - progressive web apps (pwa) - the complete guide]: https://www.udemy.com/course/progressive-web-app-pwa-the-complete-guide/?couponCode=ACAD_W
-[udemy - react native - the practical guide]: https://www.udemy.com/react-native-the-practical-guide/?couponCode=ACAD_W
+[udemy - node.js, express, mongoDB & more ...]: https://www.udemy.com/nodejs-express-mongodb-bootcamp/
+
 [//]: # "Reference links to tutors"
 [john smilga]: https://www.udemy.com/user/janis-smilga-3/
 [boris paskhaver]: https://www.udemy.com/user/borispaskhaver/
@@ -100,11 +94,18 @@ A complete log of my web development skills, learning, resources, highlights, in
 
 ---
 
-## Interests
+## a little theory to repeat
 
-I'm currently interested in/excited about:
+"From Fundamentals to Functional JS, v2"
 
-- Gatsby & Tailwindcss
-- JavaScript
+1. Does JS pass variables by reference or by value?
+2. What is Functional Programming?
+3. Similarities and differences between the array and the object.
+4. What destructuring is? (give the differences between the destructuring of the array and the object)
+5. forEach vs _.each
+6. How does filter function work?
+7. Function expression vs declaration.
+6. Arguments vs parameters.
+7. Arrow functions - how they differ (5 features)
 
 ---
