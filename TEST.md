@@ -1,6 +1,8 @@
-## A little theory to repeat
+# A little theory to repeat
 
-"From Fundamentals to Functional JS, v2"
+## JavaScript part I
+
+"From Fundamentals to Functional JS, v2" (FM)
 
 1. Does JS pass variables by reference or by value?
 2. What is Functional Programming?
@@ -13,13 +15,13 @@
 9. Arrow functions - how they differ (5 features)
 10. What are higher-order functions & Callbacks?
 
-"JavaScript: The Hard Parts"
+"JavaScript: The Hard Parts" (FM)
 
 1. Explain what does Global Execution Context, Local Execution Context and Call Stack mean.
 2. Describe how asynchronous JS works.
 3. What browser api do you know?
 
-"Deep JavaScript Foundations, v3"
+"Deep JavaScript Foundations, v3" (FM)
 
 1. What are primitive types and what they are distinct from objects?
 2. What are kinds of emptiness?
@@ -35,3 +37,15 @@
 12. What is a prototype and prototype chain?
 13. How does prototype inheritance works?
 14. Give the differences between Classical and Prototypal Inheritance?
+
+## CSS part I
+
+"CSS Grids and Flexbox for Responsive Web Design" (FM)
+
+1. content-box vs border-box
+2. flex-grow, flex-shrink, flex-basis
+3. Explain clearfix technique
+
+"Advanced CSS and Sass" (Jonas)
+
+1. pseudo elements vs pseudo classes
