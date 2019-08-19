@@ -1,4 +1,3 @@
-
 ## A little theory to repeat
 
 "From Fundamentals to Functional JS, v2"
@@ -7,9 +6,9 @@
 2. What is Functional Programming?
 3. Similarities and differences between the array and the object.
 4. What destructuring is? (give the differences between the destructuring of the array and the object)
-5. forEach vs _.each
+5. forEach vs \_.each
 6. How does filter function work?
-7. Function expression vs declaration.
+7. Function expression vs declaration and function definition.
 8. Arguments vs parameters.
 9. Arrow functions - how they differ (5 features)
 10. What are higher-order functions & Callbacks?
@@ -28,9 +27,11 @@
 4. How does Coercion work?
 5. Explain the differences between == vs ===. When should double equals be used and when not?
 6. Scope and lexical scope - what does it mean?
-7. const keyword 
+7. const keyword
 8. let or var keyword?
 9. What does hoisting mean?
 10. What is closure?
-10. How does the 'this' Keyword works (incl. Arrow fn)?
-
+11. How does the 'this' Keyword works (incl. Arrow fn)?
+12. What is a prototype and prototype chain?
+13. How does prototype inheritance works?
+14. Give the differences between Classical and Prototypal Inheritance?
