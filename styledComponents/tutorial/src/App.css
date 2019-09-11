@@ -1,0 +1,13 @@
+:root {
+  --primaryColor: blue;
+}
+
+.global {
+  color: green;
+  text-transform: capitalize;
+}
+
+.first {
+  letter-spacing: 5px;
+  color: #f15005;
+}
