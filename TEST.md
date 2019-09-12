@@ -49,3 +49,19 @@
 "Advanced CSS and Sass" (Jonas)
 
 1. pseudo elements vs pseudo classes
+2. responsive images techniques
+3. How CSS works (is loaded) behind the scenes?
+4. How CSS is parsed (cascade, value processing, inheritance)?
+
+## JavaScript part II
+
+"JavaScript: The Recent Parts (from ES6 to ES2019)" (FM)
+"JavaScript: The New Hard Parts" (FM)
+
+1. List the selected functions introduced since version ES6. Briefly discuss each of them.
+
+- Tip: template strings, destructuring, array methods, Promises
+
+## React
+
+"Complete Intro to Reacr v5" (FM)
